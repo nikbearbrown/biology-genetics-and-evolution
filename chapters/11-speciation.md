@@ -52,7 +52,9 @@ The distinction matters because the two flavors accumulate at different rates an
 
 *Three postzygotic types.* Hybrid inviability: the embryo fails — certain frog species pairs produce zygotes that develop normally but arrest at gastrulation when paternal genome transcripts don't integrate into the maternal cell. Hybrid sterility: the hybrid thrives as an individual but cannot reproduce — the mule being the canonical example, and I will work through its chromosome arithmetic below. Hybrid breakdown: F1 hybrids look fine but F2 offspring suffer elevated mortality — the signature of Dobzhansky-Muller incompatibilities, which I will trace in detail.
 
-<!-- → [TABLE: two-column summary of isolating barriers — left column: prezygotic (habitat, temporal, behavioral, mechanical, gametic), each with a one-sentence mechanistic description and a specific organism example; right column: postzygotic (hybrid inviability, sterility, breakdown), same format. Student should be able to classify any described barrier and identify the reproductive stage at which it operates.] -->
+| prezygotic (habitat | temporal | behavioral | mechanical | gametic) |
+| --- | --- | --- | --- | --- |
+| two-column summary of isolating barriers | left | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 ---
 
@@ -94,7 +96,8 @@ Bread wheat is the canonical case. Hexaploid (6n = 42 chromosomes), carrying thr
 
 Polyploidy works in plants; it fails in most animals. The reason is sex determination. Plants are mostly hermaphroditic — doubling the genome doesn't imbalance sex-chromosome dosage. In animals with XY or ZW sex determination, polyploidy doubles the sex chromosomes too, and the dosage-balance machinery — X-inactivation in mammals, the MSL complex in *Drosophila* — is calibrated to the diploid ratio and fails catastrophically when that ratio changes. Polyploid animal embryos usually die during sex determination. A few groups — some fish, some amphibians (*Xenopus*, *Ambystoma*) — tolerate it. Most animals, including all mammals and birds, do not.
 
-<!-- → [INFOGRAPHIC: three-panel chromosome-pairing diagram — panel 1: diploid meiosis (2n = 14, 7 bivalents forming cleanly, balanced gametes with n = 7); panel 2: triploid meiosis (3n = 21, each of 7 chromosome types present in three copies — two pair, one is a univalent, labeled; annotation shows probability of balanced gamete = (1/2)^7 ≈ 1/128); panel 3: tetraploid meiosis (4n = 28, each chromosome type has a homolog, bivalents or quadrivalents form, meiosis completes, balanced gametes with n = 14). Student should see that the triploid's failure at meiosis is the chromosome-level mechanism that makes the tetraploid reproductively isolated from the diploid in one generation.] -->
+![Chromosome-pairing diagram ](images/11-speciation-fig-01.png)
+*Figure 11.1 — Chromosome-pairing diagram *
 
 ### Host shift — *Rhagoletis* in 150 years
 
@@ -106,7 +109,8 @@ Combined with the mating-on-host natural history, the host shift produced both h
 
 The flies are not yet fully reproductively isolated. Gene flow between them is non-zero. But they are well along the path, and the mechanism generalizes: host-shift coupled to mate-choice-on-host is a route to sympatric speciation in phytophagous insects generally — pea aphids on alfalfa versus red clover, leaf beetles on willow versus maple.
 
-<!-- → [INFOGRAPHIC: Rhagoletis host-shift speciation timeline — horizontal axis: years since 1850 (~0 to 175 years, ~175 generations); two parallel rows, one for hawthorn flies and one for apple flies; key events marked: 1850 first apple colony reported; ~1880 temporal offset established; ~2000 genetic divergence documented at diapause loci. Below the timeline, a bar showing FST at host-preference loci (~0.15) versus FST genome-wide (~0.02), labeled to show the islands-of-divergence pattern. Student should see the timeline of barrier accumulation and the genomic signature of selection maintaining divergence at specific loci while migration homogenizes the rest.] -->
+![Rhagoletis host-shift speciation timeline ](images/11-speciation-fig-02.png)
+*Figure 11.2 — Rhagoletis host-shift speciation timeline *
 
 ### Sensory drive — Lake Victoria, revisited
 
@@ -148,7 +152,8 @@ In F2, Mendelian segregation shuffles all combinations. The genotype *aa*bb — 
 
 The accumulation rate has a striking property. If each population fixes substitutions at rate *r* per locus per generation, after *t* generations each population has fixed approximately *rt* mutations. The number of *cross-population pairs* — one substitution from each lineage, potentially incompatible — scales as (*rt*)², growing as t². Incompatibilities accumulate faster than linearly with divergence time. This is the **snowball effect**, predicted by Orr (1995) and confirmed in *Drosophila* and *Mimulus* (monkeyflowers) species pairs, where the number of identified hybrid-sterility loci roughly squares with divergence time.
 
-<!-- → [CHART: two-panel figure illustrating the snowball effect — left panel: diagram of the Dobzhansky-Muller model showing ancestral AABB → population X fixed aaBB, population Y fixed AAbb, hybrid AaBb (novel ab combination, untested by selection), and F2 aabb (fully incompatible combination, 1/16 frequency); right panel: graph of number of incompatibilities versus divergence time (t), showing a linear curve and a t² curve, with empirical data points from Drosophila species pairs falling near the t² curve. Student should see why the model predicts the snowball and why linear accumulation would underestimate hybrid breakdown in old species pairs.] -->
+![Figure illustrating the snowball effect ](images/11-speciation-fig-03.png)
+*Figure 11.3 — Figure illustrating the snowball effect *
 
 ---
 
@@ -166,7 +171,8 @@ The molecular work shows what the alleles were doing. *BMP4* — higher expressi
 
 This is the five forces from Chapter 10, running in two overlapping populations on a 0.34 km² island, producing speciation in observable generations. Selection on beak morphology (differential seed survival in droughts). Drift in the small founding lineage. Low gene flow (the Big Bird lineage barely interbreeds with mainstream *G. fortis*). Non-random mating (assortative mating via beak-coupled song). Mutation accumulating at the underlying loci across generations.
 
-<!-- → [INFOGRAPHIC: Big Bird lineage speciation timeline on Daphne Major — horizontal axis: 1981 to 2010 (~30 years, ~7 generations); key events marked: 1981 single large-beaked immigrant arrives; 1982–1987 F1 and F2 hybrids breed preferentially within the lineage; 1990s lineage maintains distinct song frequency distribution from mainstream G. fortis; 2009–2010 genetic distinctness at ALX1 and HMGA2 confirmed. A small inset should show beak depth distributions: unimodal for G. fortis, slightly offset unimodal for Big Bird lineage, with minimal overlap. Student should see the sequence from immigrant arrival through song-mediated assortative mating to genetic distinctness.] -->
+![Big Bird lineage speciation timeline on Daphne Major](images/11-speciation-fig-04.png)
+*Figure 11.4 — Big Bird lineage speciation timeline on Daphne Major*
 
 Whether the Big Bird lineage is "really" a species depends on how strictly you apply the BSC. It is reproductively isolated through behavioral discrimination. Gene flow to and from it is essentially zero. It maintains genetic distinctness across generations. The Grants estimate complete BSC-species status within a few decades if the current trajectory continues.
 
@@ -202,7 +208,8 @@ If *Nm* and *m/s* are intermediate, populations settle into a stable polymorphis
 
 Speciation, fusion, and stable polymorphism are three outcomes of the same machinery under different parameter regimes. They are not categorically different processes. The parameters — *Nm*, *Ns*, genetic architecture of differentially-selected traits — determine which outcome a population pair is heading toward.
 
-<!-- → [CHART: phase diagram of speciation outcomes — two-axis plot with Nm on the x-axis (from low to high) and m/s on the y-axis (from low to high); three labeled regions: lower-left = "speciation" (low migration, strong selection); upper-right = "fusion" (high migration, weak selection); diagonal band between = "stable polymorphism / islands of divergence". Empirical cases plotted as points: Rhagoletis apple/hawthorn in the speciation region; Lake Victoria cichlids under turbidity in the fusion region; sticklebacks with FST heterogeneity in the polymorphism band. Student should be able to locate any described population pair in this space given estimated Nm and m/s.] -->
+![Phase diagram of speciation outcomes ](images/11-speciation-fig-05.png)
+*Figure 11.5 — Phase diagram of speciation outcomes *
 
 ---
 
@@ -249,3 +256,53 @@ The mechanism is always the same: the five forces from Chapter 10 — mutation, 
 ---
 
 *Chapter 12 asks how the lineages produced by speciation are related to each other. Each branch point on a phylogenetic tree is a speciation event; each tip is a current species; branch lengths encode accumulated divergence. Having watched the engine run — in Victoria cichlids, in Daphne Major finches, in polyploid wheat — the next question is how to read what the engine has built.*
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 11.1 — Chromosome-pairing diagram 
+
+Create a standalone D3 v7 HTML file for Figure Chromosome-pairing diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: three-panel chromosome-pairing diagram — panel 1: diploid meiosis (2n = 14, 7 bivalents forming cleanly, balanced gametes with n = 7); panel 2: triploid meiosis (3n = 21, each of 7 chromosome types present in three copies — two pair, one is a univalent, labeled; annotation shows probability of balanced gamete = (1/2)^7 ≈ 1/128); panel 3: tetraploid meiosis (4n = 28, each chromosome type has a homolog, bivalents or quadrivalents form, meiosis completes, balanced gametes with n = 14). Student should see that the triploid's failure at meiosis is the chromosome-level mechanism that makes the tetraploid reproductively isolated from the diploid in one generation.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the b
+
+> Reference implementation: `d3/11-speciation-fig-01.html`
+
+---
+
+### Figure 11.2 — Rhagoletis host-shift speciation timeline 
+
+Create a standalone D3 v7 HTML file for Figure Rhagoletis host-shift speciation timeline . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Rhagoletis host-shift speciation timeline — horizontal axis: years since 1850 (~0 to 175 years, ~175 generations); two parallel rows, one for hawthorn flies and one for apple flies; key events marked: 1850 first apple colony reported; ~1880 temporal offset established; ~2000 genetic divergence documented at diapause loci. Below the timeline, a bar showing FST at host-preference loci (~0.15) versus FST genome-wide (~0.02), labeled to show the islands-of-divergence pattern. Student should see the timeline of barrier accumulation and the genomic signature of selection maintaining divergence at specific loci while migration homogenizes the rest.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the br
+
+> Reference implementation: `d3/11-speciation-fig-02.html`
+
+---
+
+### Figure 11.3 — Figure illustrating the snowball effect 
+
+Create a standalone D3 v7 HTML file for Figure Figure illustrating the snowball effect . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: two-panel figure illustrating the snowball effect — left panel: diagram of the Dobzhansky-Muller model showing ancestral AABB → population X fixed aaBB, population Y fixed AAbb, hybrid AaBb (novel ab combination, untested by selection), and F2 aabb (fully incompatible combination, 1/16 frequency); right panel: graph of number of incompatibilities versus divergence time (t), showing a linear curve and a t² curve, with empirical data points from Drosophila species pairs falling near the t² curve. Student should see why the model predicts the snowball and why linear accumulation would underestimate hybrid breakdown in old species pairs.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use o
+
+> Reference implementation: `d3/11-speciation-fig-03.html`
+
+---
+
+### Figure 11.4 — Big Bird lineage speciation timeline on Daphne Major
+
+Create a standalone D3 v7 HTML file for Figure Big Bird lineage speciation timeline on Daphne Major. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Big Bird lineage speciation timeline on Daphne Major — horizontal axis: 1981 to 2010 (~30 years, ~7 generations); key events marked: 1981 single large-beaked immigrant arrives; 1982–1987 F1 and F2 hybrids breed preferentially within the lineage; 1990s lineage maintains distinct song frequency distribution from mainstream G. fortis; 2009–2010 genetic distinctness at ALX1 and HMGA2 confirmed. A small inset should show beak depth distributions: unimodal for G. fortis, slightly offset unimodal for Big Bird lineage, with minimal overlap. Student should see the sequence from immigrant arrival through song-mediated assortative mating to genetic distinctness.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotat
+
+> Reference implementation: `d3/11-speciation-fig-04.html`
+
+---
+
+### Figure 11.5 — Phase diagram of speciation outcomes 
+
+Create a standalone D3 v7 HTML file for Figure Phase diagram of speciation outcomes . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: phase diagram of speciation outcomes — two-axis plot with Nm on the x-axis (from low to high) and m/s on the y-axis (from low to high); three labeled regions: lower-left = "speciation" (low migration, strong selection); upper-right = "fusion" (high migration, weak selection); diagonal band between = "stable polymorphism / islands of divergence". Empirical cases plotted as points: Rhagoletis apple/hawthorn in the speciation region; Lake Victoria cichlids under turbidity in the fusion region; sticklebacks with FST heterogeneity in the polymorphism band. Student should be able to locate any described population pair in this space given estimated Nm and m/s.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named i
+
+> Reference implementation: `d3/11-speciation-fig-05.html`

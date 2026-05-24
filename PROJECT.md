@@ -1,7 +1,7 @@
 # PROJECT.md — Biology +1: Genetics and Evolution
 
 *Project-state file tracking which chapters are drafted and which simulations are built.*
-*Author: Nik Bear Brown · Series: Biology +1*
+*Author: Humanitarians AI · Series: Biology +1*
 
 ---
 

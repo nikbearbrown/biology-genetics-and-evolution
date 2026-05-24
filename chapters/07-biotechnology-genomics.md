@@ -57,7 +57,8 @@ One cycle, starting from *N₀* template molecules: *N₀* × 2¹ molecules. Aft
 
 Mullis received the 1993 Nobel Prize in Chemistry. Brock, who isolated the organism that made the technique possible, did not — the foundational basic-science work that enables applied breakthroughs is routinely invisible to prizes. The lesson worth pinning down: *the PCR idea is upstream; the Taq polymerase is the load-bearing innovation.* Most engineering breakthroughs look like this. The idea is decades old. The enabling material arrives later. Then suddenly the field changes.
 
-<!-- → [IMAGE: Three-stage thermal cycle diagram — a horizontal timeline showing one PCR cycle with three blocks: (1) 94°C denaturation with the double helix shown melting to two single strands; (2) ~55°C annealing with two primers shown binding to opposite strands flanking the target region; (3) 72°C extension with Taq polymerase shown extending each primer through the target; beneath the cycle, a second panel showing the exponential copy-number growth over 30 cycles on a log scale — annotated with "2ⁿ copies after n cycles"] -->
+![Three-stage thermal cycle diagram ](images/07-biotechnology-genomics-fig-01.png)
+*Figure 7.1 — Three-stage thermal cycle diagram *
 
 Variants of PCR are worth naming quickly because you will see them constantly.
 
@@ -69,7 +70,13 @@ Variants of PCR are worth naming quickly because you will see them constantly.
 
 Taq polymerase has no proofreading exonuclease. Its error rate is about 1 in 10⁵ bases. For applications where the sequence must be correct — sequencing a construct, amplifying for cloning — high-fidelity polymerases with 3'→5' proofreading (Pfu, Phusion) are used instead, bringing the error rate to ~10⁻⁷.
 
-<!-- → [TABLE: PCR variant comparison — columns: variant name, what is added to basic PCR, readout, key application — rows: Basic PCR (nothing, gel band of amplified product, cloning/genotyping), qPCR (fluorescent dye or probe, real-time fluorescence curve + Ct value, gene expression / viral load), RT-PCR (reverse transcriptase step before PCR, cDNA then PCR product, RNA detection), RT-qPCR (RT + fluorescent readout, Ct value on cDNA, COVID diagnosis / quantitative expression), dPCR (partitioning into thousands of chambers, fraction positive chambers, absolute copy number / liquid biopsy at low abundance) — student should see each variant as one added capability on top of the basic cycle] -->
+| variant name | what is added to basic PCR | readout | key application — |
+| --- | --- | --- | --- |
+| Basic PCR (nothing, gel band of amplified product, cloning | genotyping | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| qPCR (fluorescent dye or probe, real-time fluorescence curve + Ct value, gene expression | viral load | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| RT-PCR (reverse transcriptase step before PCR, cDNA then PCR product, RNA detection | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| RT-qPCR (RT + fluorescent readout, Ct value on cDNA, COVID diagnosis | quantitative expression | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| dPCR (partitioning into thousands of chambers, fraction positive chambers, absolute copy number | liquid biopsy at low abundance) | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 ---
 
@@ -83,13 +90,15 @@ Bacteria are continuously attacked by bacteriophages. One defense is a class of 
 
 The useful ones have palindromic recognition sequences — the same sequence on both strands reading 5'→3'. *EcoRI* recognizes 5'-GAATTC-3'. *BamHI* recognizes GGATCC. *HindIII* recognizes AAGCTT. Each enzyme cuts at a defined position within its recognition sequence. EcoRI cuts between G and A on each strand, leaving four-nucleotide 5' overhangs — "sticky ends" that are complementary to each other. Mix two DNA fragments cut with the same enzyme; the sticky ends base-pair. Add DNA ligase; the fragments are joined into a stable recombinant molecule. This is molecular glue obeying the same Watson-Crick base-pairing rules as everything else in the cell.
 
-<!-- → [IMAGE: EcoRI cleavage diagram — the double-stranded recognition sequence 5'-GAATTC-3' on both strands shown before and after cutting, with the resulting 5'-AATT-3' sticky ends on each fragment; a second panel showing two fragments with complementary sticky ends annealing, followed by ligase sealing the nicks to produce a continuous recombinant molecule] -->
+![EcoRI cleavage diagram ](images/07-biotechnology-genomics-fig-02.png)
+*Figure 7.2 — EcoRI cleavage diagram *
 
 **Robert Swanson and Herbert Boyer** used this at the newly-founded Genentech in 1978 to produce the first recombinant human protein. They synthesized the human insulin A-chain and B-chain genes, cloned each into a bacterial expression plasmid, transformed *E. coli*, induced expression, purified the protein, and chemically reconstituted the mature insulin. By 1982, Eli Lilly's Humulin — recombinant human insulin from *E. coli* — was on the market, the first recombinant protein drug ever approved.
 
 Before Humulin, diabetics injected insulin extracted from pig and cow pancreases — slightly different from human insulin, prone to allergic reactions, limited by the world's slaughterhouse industry. After Humulin, insulin was a virtually unlimited resource identical in sequence to human insulin. The supply problem disappeared in one product launch. The same general workflow produced human growth hormone (1985), erythropoietin (1989), G-CSF (1991), and the first wave of monoclonal antibodies — rituximab, trastuzumab, adalimumab — that form the core of modern oncology and immunology pharmacology. The biotechnology industry exists because of this workflow.
 
-<!-- → [IMAGE: Recombinant DNA cloning workflow — six-step linear diagram: (1) Cut: restriction enzyme (EcoRI shown) cuts both a plasmid and the gene of interest, producing matching sticky ends; (2) Ligate: DNA ligase joins the gene into the plasmid, forming a recombinant plasmid; (3) Transform: plasmid is introduced into E. coli by heat-shock; (4) Select: bacteria are plated on antibiotic medium — only those containing the plasmid (antibiotic-resistance gene) survive; (5) Screen: individual colonies are picked and the insert is verified by PCR and/or sequencing; (6) Express: bacteria with confirmed insert are grown at scale and the protein is purified — annotated with "Humulin, 1982" as the real-world outcome of this workflow] -->
+![Recombinant DNA cloning workflow ](images/07-biotechnology-genomics-fig-03.png)
+*Figure 7.3 — Recombinant DNA cloning workflow *
 
 Restriction enzymes have a fundamental limit: they cut at *fixed* sequences. EcoRI cuts every GAATTC in the genome. The set of usable enzymes is constrained by which palindromic sequences exist in the vicinity of your target. They are not programmable.
 
@@ -121,7 +130,8 @@ The mechanism, step by step.
 
 NHEJ for disruption. HDR for precision. The choice is the strategic decision of every CRISPR experiment.
 
-<!-- → [IMAGE: CRISPR mechanism diagram — Cas9 protein shown as a shape gripping the sgRNA (labeled "20-nt spacer + scaffold"), with the sgRNA base-paired to the DNA target strand and the PAM (NGG) labeled on the non-target strand; dotted scissors showing the cut position 3 bp upstream of PAM; two outcome branches below: left branch (NHEJ) shows a frameshift indel and "knockout"; right branch (HDR) shows the exogenous template being used and the precise correction installed] -->
+![CRISPR mechanism diagram ](images/07-biotechnology-genomics-fig-04.png)
+*Figure 7.4 — CRISPR mechanism diagram *
 
 ### CRISPR variants — editing without a double-strand break
 
@@ -133,7 +143,14 @@ Classical Cas9 with NHEJ is a blunt instrument. The indels are heterogeneous. Do
 
 **CRISPRi/CRISPRa** use a catalytically dead Cas9 (no nuclease activity) fused to a transcriptional repressor or activator. Point at a promoter with a guide RNA, repress or activate the gene without touching the sequence. Reversible. Used heavily for functional screening and for dissecting regulatory elements.
 
-<!-- → [TABLE: CRISPR toolkit summary — columns: tool, mechanism, edit type, requires DSB?, typical efficiency, best use case — rows: Cas9 + NHEJ (frameshift indel, disruption of gene/enhancer, yes, high, knockout), Cas9 + HDR (precise replacement using template, yes, low, correction/insertion), Cytosine base editor (C→T or G→A, no DSB, moderate-high, point mutation correction), Adenine base editor (A→G or T→C, no DSB, moderate-high, point mutation correction), Prime editor (any SNP + small indels, no DSB, moderate, versatile correction), CRISPRi/a (transcription OFF/ON, no DSB, high, reversible regulation)] -->
+| tool | mechanism | edit type | requires DSB? | typical efficiency |
+| --- | --- | --- | --- | --- |
+| Cas9 + NHEJ (frameshift indel, disruption of gene | enhancer, yes, high, knockout | A concrete checkpoint for applying the chapter concept. | A specific, evidence-linked version that readers can verify. | A concrete checkpoint for applying the chapter concept. |
+| Cas9 + HDR (precise replacement using template, yes, low, correction | insertion | A concrete checkpoint for applying the chapter concept. | A specific, evidence-linked version that readers can verify. | A concrete checkpoint for applying the chapter concept. |
+| Cytosine base editor (C→T or G→A, no DSB, moderate-high, point mutation correction | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A specific, evidence-linked version that readers can verify. | A concrete checkpoint for applying the chapter concept. |
+| Adenine base editor (A→G or T→C, no DSB, moderate-high, point mutation correction | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A specific, evidence-linked version that readers can verify. | A concrete checkpoint for applying the chapter concept. |
+| Prime editor (any SNP + small indels, no DSB, moderate, versatile correction | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A specific, evidence-linked version that readers can verify. | A concrete checkpoint for applying the chapter concept. |
+| CRISPRi | a (transcription OFF | A concrete checkpoint for applying the chapter concept. | A specific, evidence-linked version that readers can verify. | A concrete checkpoint for applying the chapter concept. |
 
 ---
 
@@ -153,7 +170,8 @@ Separate by size on capillary electrophoresis. Smaller fragments migrate faster.
 
 Sanger reads ~700–800 bp per reaction. Accuracy ~99.99% per base. The gold standard for short, accurate, single-locus work — confirming a plasmid construct, verifying a CRISPR edit, sequencing a candidate disease gene. Slow and expensive per base: each reaction takes an hour and costs a few dollars per kilobase. To sequence the human genome at Sanger rates took thirteen years and three billion dollars.
 
-<!-- → [IMAGE: Sanger sequencing output — two panels: left panel shows the chain-termination mechanism with a short template and ladder of terminated fragments of increasing length, each labeled with its terminal base color (green A, blue C, yellow G, red T); right panel shows the resulting chromatogram trace — four colored overlapping peaks across the horizontal axis, each peak labeled with its base identity, the sequence readable left-to-right as "ATGCGATC..." — annotated to show that peak position = fragment length = base position, and peak color = base identity] -->
+![Sanger sequencing output ](images/07-biotechnology-genomics-fig-05.png)
+*Figure 7.5 — Sanger sequencing output *
 
 ### The Human Genome Project
 
@@ -175,7 +193,8 @@ The cost per base dropped roughly 10,000-fold compared to Sanger. A whole human 
 
 Illumina reads have one weakness: they are short. The human genome has many repetitive regions — centromeres, segmental duplications, tandem repeat arrays — that are longer than 300 bp. Short reads from a repetitive region cannot be uniquely placed in the assembly. These regions remained unresolved.
 
-<!-- → [IMAGE: Illumina sequencing-by-synthesis diagram — three-panel sequence: (1) flow cell surface showing a fragment hybridized to a surface oligo and bridge-amplified into a tight cluster of ~1,000 identical copies; (2) one sequencing cycle: four reversible-terminator nucleotides flood the cell, polymerase adds one per cluster (color-coded A/C/G/T), camera images the whole surface, then the blocking group and label are chemically removed; (3) the output data: a grid of colored dots (each dot = one cluster) with the sequence of base colors over 150 cycles reading down the column for each cluster — annotated with "millions of clusters read in parallel" and "each cycle = one base per cluster"] -->
+![Illumina sequencing-by-synthesis diagram ](images/07-biotechnology-genomics-fig-06.png)
+*Figure 7.6 — Illumina sequencing-by-synthesis diagram *
 
 ### Long reads close the gap
 
@@ -191,7 +210,8 @@ Here is the headline statistic of this chapter. In 2001, sequencing one human ge
 
 A reduction from ~$10⁸ to ~$200 in twenty-three years. Six to seven orders of magnitude. Plot it on a log scale against time, and two regimes emerge. From 2001 to roughly 2008, the cost fell along Moore's Law — halving every ~18 months, the rate of integrated-circuit transistor cost. From 2008 onwards, the cost fell *faster* than Moore's Law. Illumina's massively parallel chemistry was scaling on a steeper curve than semiconductor manufacturing.
 
-<!-- → [CHART: Cost-per-genome curve on log scale — x-axis: years 2001–2024; y-axis: cost in dollars (log scale from $0.01 to $100,000,000); two reference lines overlaid: Moore's Law (halving every 18 months, shown as a dashed gray line) and the actual sequencing cost curve (solid blue line); the curves run together until ~2008 where the sequencing curve breaks away and falls steeper; annotated with key events: "HGP complete 2003 / ~$95M per genome"; "Illumina HiSeq launches / ~$1,000 per genome by 2014"; "2024 / ~$200 per genome"] -->
+![Cost-per-genome curve on log scale ](images/07-biotechnology-genomics-fig-07.png)
+*Figure 7.7 — Cost-per-genome curve on log scale *
 
 What has *not* fallen at the same rate is the cost of *interpretation*. We can read a genome for $200. We cannot yet, for most variants, tell a patient what their genome means for their health. Curated variant databases (ClinVar), trained genetic counselors, professional-society guidelines, and clinical-validation studies are expensive and slow to scale. The gap between sequence in hand and biology understood is where most of the friction in clinical genomics now lives.
 
@@ -217,7 +237,14 @@ On top of the four verbs, a dense layer of genome-scale technologies now exists.
 
 The applications are clinical and already deployed. **Pharmacogenomics** — variants in drug-metabolizing enzymes like CYP2C19 and CYP2D6 — has large, actionable effects on how patients process medications; many health systems now run preemptive pharmacogenomic panels. **Tumor-agnostic drug approvals** — pembrolizumab for microsatellite-instability-high tumors (FDA, 2017); larotrectinib for NTRK-fusion tumors (2018) — use genomic signatures rather than tissue of origin as the indication. **Newborn screening** now uses sequencing alongside mass spectrometry to detect dozens of treatable genetic diseases in the first 48 hours of life. **Polygenic risk scores** aggregate thousands of small-effect GWAS hits into population-level predictors of disease risk, with real but bounded clinical utility concentrated at the tails of the distribution.
 
-<!-- → [TABLE: Genome-scale technologies and clinical applications — columns: technology, what it measures, scale, primary clinical or research application — rows: RNA-seq (gene expression per transcript, whole transcriptome, tumor profiling / drug response), scRNA-seq (expression per single cell, thousands of cells per experiment, cell atlas / tumor heterogeneity), GWAS (SNP frequency in cases vs. controls, genome-wide ~1M SNPs, disease-risk loci / polygenic risk scores), Liquid biopsy / ctDNA (tumor mutations in plasma, personalized mutation panel, MRD monitoring / early cancer detection), Pharmacogenomics (drug-metabolizing enzyme variants, targeted gene panel, dose selection / drug avoidance), Tumor-agnostic approvals (genomic signature e.g. MSI-H or NTRK fusion, tumor sequencing, indication-agnostic drug matching) — student should see the full stack from measurement to clinical decision in one view] -->
+| technology | what it measures | scale | primary clinical or research application — |
+| --- | --- | --- | --- |
+| RNA-seq (gene expression per transcript, whole transcriptome, tumor profiling | drug response | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| scRNA-seq (expression per single cell, thousands of cells per experiment, cell atlas | tumor heterogeneity | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| GWAS (SNP frequency in cases vs. controls, genome-wide ~1M SNPs, disease-risk loci | polygenic risk scores | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| Liquid biopsy | ctDNA (tumor mutations in plasma, personalized mutation panel, MRD monitoring | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| Pharmacogenomics (drug-metabolizing enzyme variants, targeted gene panel, dose selection | drug avoidance | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| Tumor-agnostic approvals (genomic signature e.g. MSI-H or NTRK fusion, tumor sequencing, indication-agnostic drug matching) | student should see the full stack from measurement to clinical decision in one view | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 ---
 
@@ -388,3 +415,69 @@ recognized by the scientific community.
 - Ask it to explain why the 2020 Nobel Prize was controversial within the CRISPR community — specifically the question of who first demonstrated CRISPR-Cas9 editing in human cells, and the ongoing patent dispute between the Broad Institute and Berkeley.
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 7.1 — Three-stage thermal cycle diagram 
+
+Create a standalone D3 v7 HTML file for Figure Three-stage thermal cycle diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Three-stage thermal cycle diagram — a horizontal timeline showing one PCR cycle with three blocks: (1) 94°C denaturation with the double helix shown melting to two single strands; (2) ~55°C annealing with two primers shown binding to opposite strands flanking the target region; (3) 72°C extension with Taq polymerase shown extending each primer through the target; beneath the cycle, a second panel showing the exponential copy-number growth over 30 cycles on a log scale — annotated with "2ⁿ copies after n cycles". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/07-biotechnology-genomics-fig-01.html`
+
+---
+
+### Figure 7.2 — EcoRI cleavage diagram 
+
+Create a standalone D3 v7 HTML file for Figure EcoRI cleavage diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: EcoRI cleavage diagram — the double-stranded recognition sequence 5'-GAATTC-3' on both strands shown before and after cutting, with the resulting 5'-AATT-3' sticky ends on each fragment; a second panel showing two fragments with complementary sticky ends annealing, followed by ligase sealing the nicks to produce a continuous recombinant molecule. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/07-biotechnology-genomics-fig-02.html`
+
+---
+
+### Figure 7.3 — Recombinant DNA cloning workflow 
+
+Create a standalone D3 v7 HTML file for Figure Recombinant DNA cloning workflow . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Recombinant DNA cloning workflow — six-step linear diagram: (1) Cut: restriction enzyme (EcoRI shown) cuts both a plasmid and the gene of interest, producing matching sticky ends; (2) Ligate: DNA ligase joins the gene into the plasmid, forming a recombinant plasmid; (3) Transform: plasmid is introduced into E. coli by heat-shock; (4) Select: bacteria are plated on antibiotic medium — only those containing the plasmid (antibiotic-resistance gene) survive; (5) Screen: individual colonies are picked and the insert is verified by PCR and/or sequencing; (6) Express: bacteria with confirmed insert are grown at scale and the protein is purified — annotated with "Humulin, 1982" as the real-world outcome of this workflow. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas
+
+> Reference implementation: `d3/07-biotechnology-genomics-fig-03.html`
+
+---
+
+### Figure 7.4 — CRISPR mechanism diagram 
+
+Create a standalone D3 v7 HTML file for Figure CRISPR mechanism diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: CRISPR mechanism diagram — Cas9 protein shown as a shape gripping the sgRNA (labeled "20-nt spacer + scaffold"), with the sgRNA base-paired to the DNA target strand and the PAM (NGG) labeled on the non-target strand; dotted scissors showing the cut position 3 bp upstream of PAM; two outcome branches below: left branch (NHEJ) shows a frameshift indel and "knockout"; right branch (HDR) shows the exogenous template being used and the precise correction installed. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/07-biotechnology-genomics-fig-04.html`
+
+---
+
+### Figure 7.5 — Sanger sequencing output 
+
+Create a standalone D3 v7 HTML file for Figure Sanger sequencing output . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Sanger sequencing output — two panels: left panel shows the chain-termination mechanism with a short template and ladder of terminated fragments of increasing length, each labeled with its terminal base color (green A, blue C, yellow G, red T); right panel shows the resulting chromatogram trace — four colored overlapping peaks across the horizontal axis, each peak labeled with its base identity, the sequence readable left-to-right as "ATGCGATC..." — annotated to show that peak position = fragment length = base position, and peak color = base identity. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/07-biotechnology-genomics-fig-05.html`
+
+---
+
+### Figure 7.6 — Illumina sequencing-by-synthesis diagram 
+
+Create a standalone D3 v7 HTML file for Figure Illumina sequencing-by-synthesis diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Illumina sequencing-by-synthesis diagram — three-panel sequence: (1) flow cell surface showing a fragment hybridized to a surface oligo and bridge-amplified into a tight cluster of ~1,000 identical copies; (2) one sequencing cycle: four reversible-terminator nucleotides flood the cell, polymerase adds one per cluster (color-coded A/C/G/T), camera images the whole surface, then the blocking group and label are chemically removed; (3) the output data: a grid of colored dots (each dot = one cluster) with the sequence of base colors over 150 cycles reading down the column for each cluster — annotated with "millions of clusters read in parallel" and "each cycle = one base per cluster". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where pos
+
+> Reference implementation: `d3/07-biotechnology-genomics-fig-06.html`
+
+---
+
+### Figure 7.7 — Cost-per-genome curve on log scale 
+
+Create a standalone D3 v7 HTML file for Figure Cost-per-genome curve on log scale . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Cost-per-genome curve on log scale — x-axis: years 2001–2024; y-axis: cost in dollars (log scale from $0.01 to $100,000,000); two reference lines overlaid: Moore's Law (halving every 18 months, shown as a dashed gray line) and the actual sequencing cost curve (solid blue line); the curves run together until ~2008 where the sequencing curve breaks away and falls steeper; annotated with key events: "HGP complete 2003 / ~$95M per genome"; "Illumina HiSeq launches / ~$1,000 per genome by 2014"; "2024 / ~$200 per genome". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/07-biotechnology-genomics-fig-07.html`

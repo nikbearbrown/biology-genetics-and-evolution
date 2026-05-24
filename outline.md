@@ -14,7 +14,7 @@
 
 # Biology Plus One Genetics and Evolution — Outline
 
-**Author:** Nik Bear Brown
+**Author:** Humanitarians AI
 
 ---
 

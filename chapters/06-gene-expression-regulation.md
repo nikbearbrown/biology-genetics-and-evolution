@@ -25,7 +25,12 @@ A human liver cell and a human neuron from the same person carry the same DNA at
 
 What differs is the transcriptome — which genes are being transcribed into mRNA — and downstream of that, the proteome. Roughly 11,000–13,000 of the ~20,000 protein-coding genes are detectably expressed in any typical mammalian cell. Of those, about 7,000 are "housekeeping" genes expressed in essentially every cell type: ribosomal proteins, basal metabolism, cytoskeleton, DNA repair. The other 4,000–6,000 vary. A liver cell expresses urea-cycle enzymes, drug-metabolizing P450 enzymes, lipoprotein synthesis machinery. A neuron expresses neurofilaments, neurotransmitter receptors, ion channels of dozens of specific types. The two cells share their housekeeping proteome. They diverge widely in everything else. A liver cell does not contain a faint background of every neuronal protein. Those genes are epigenetically silenced — essentially as absent from the liver cell's functional genome as if they had been deleted.
 
-<!-- → [TABLE: side-by-side comparison of liver cell vs. neuron gene expression — rows: a handful of cell-type-specific genes in each, plus 3–4 shared housekeeping genes; columns: gene name, liver cell expression (high/absent), neuron expression (high/absent), function — student should see that same-DNA cells diverge completely on cell-type-specific genes while sharing the housekeeping set] -->
+| gene name | liver cell expression (high | absent) | neuron expression (high | absent) |
+| --- | --- | --- | --- | --- |
+| a handful of cell-type-specific genes in each, plus 3–4 shared housekeeping genes | A concrete checkpoint for applying the chapter concept. | The pattern becomes easy to misuse or overlook. | A concrete checkpoint for applying the chapter concept. | The pattern becomes easy to misuse or overlook. |
+| columns: gene name, liver cell expression (high | absent | The pattern becomes easy to misuse or overlook. | A concrete checkpoint for applying the chapter concept. | The pattern becomes easy to misuse or overlook. |
+| neuron expression (high | absent | The pattern becomes easy to misuse or overlook. | A concrete checkpoint for applying the chapter concept. | The pattern becomes easy to misuse or overlook. |
+| function | student should see that same-DNA cells diverge completely on cell-type-specific genes while sharing the housekeeping set | The pattern becomes easy to misuse or overlook. | A concrete checkpoint for applying the chapter concept. | The pattern becomes easy to misuse or overlook. |
 
 The question, made precise: **which mechanisms decide which of the ~20,000 genes are transcribed in a given cell, at what level, at what time — and how is that decision remembered across cell divisions?**
 
@@ -41,7 +46,8 @@ The answer is not one mechanism. It is a layered architecture. I will work throu
 
 **Layer 5: Epigenetic control.** Whether chromatin is even accessible to transcription machinery. The slowest layer to set up; the most stable once set. The layer that locks in cell identity.
 
-<!-- → [INFOGRAPHIC: five regulatory layers as a vertical pipeline — Layer 1 (DNA/transcription) → Layer 2 (pre-mRNA/splicing) → Layer 3 (mRNA/translation) → Layer 4 (protein/modification) → Layer 5 (chromatin/epigenetic) running beneath all others as the foundation; each layer labeled with its timescale (milliseconds to lifetime) and one example intervention; student should see that the layers are not sequential alternatives but simultaneous controls at different points in gene expression] -->
+![Five regulatory layers as a vertical pipeline ](images/06-gene-expression-regulation-fig-01.png)
+*Figure 6.1 — Five regulatory layers as a vertical pipeline *
 
 Each layer has its own timescale. Post-translational modifications happen in milliseconds. Transcriptional changes take minutes. Epigenetic changes are essentially permanent on the cell's lifetime — copied through every division. The architecture is built for two things at once: fast response to immediate signals, and stable maintenance of identity across a lifetime.
 
@@ -78,7 +84,8 @@ The AND gate. Both inputs must be satisfied for the gate to open. One repressor 
 
 The observable consequence is the **diauxic growth curve** that Monod first described in 1941: bacteria growing on a glucose-lactose mixture consume glucose first, pause for ~20 minutes while the *lac* operon induces, then resume growth on lactose. The kink in the growth curve is the AND gate switching state, visible at the scale of a flask on a bench.
 
-<!-- → [CHART: diauxic growth curve — x-axis: time; y-axis: optical density (log scale); two labeled phases of exponential growth separated by a lag period; annotations marking "glucose consumed," "lac operon inducing," "lactose growth resumes"; student should see the kink as the AND-gate switching state, not as a pause or error] -->
+![Diauxic growth curve ](images/06-gene-expression-regulation-fig-02.png)
+*Figure 6.2 — Diauxic growth curve *
 
 I want to pin down one lesson from the *lac* operon before moving to eukaryotes. Gene regulation, at the bacterial level, is implemented in the same logic as a digital circuit. Allolactose and cAMP are wires. LacI and CAP are gates. The transcription rate is the output bit. The *trp* operon, which controls tryptophan biosynthesis, is a NOT gate — transcribed by default, silenced when tryptophan itself binds and activates the TrpR repressor. The lambda phage lytic/lysogeny switch is a flip-flop — two repressors mutually inhibiting, with a stable state in each direction. These are not metaphors. The circuits are digital. The molecules are the components.
 
@@ -94,7 +101,8 @@ The dominant regulatory action comes not from the promoter itself — where RNA 
 
 The looping is not random. The genome inside a cell nucleus is organized into **topologically associating domains (TADs)** — regions of typically 100–1,000 kilobases where sequences interact preferentially with each other. TAD boundaries are marked by the protein CTCF and maintained by cohesin rings that extrude DNA loops until they hit a boundary. An enhancer and its target promoter must be in the same TAD to interact; sequences in adjacent TADs are insulated. Disrupt a TAD boundary — by deletion, mutation, or chromosomal rearrangement — and an enhancer can find an inappropriate new target, driving ectopic expression in a mechanism implicated in developmental disorders and some cancers.
 
-<!-- → [DIAGRAM: TAD architecture — schematic of a chromatin fiber folded into two TADs separated by a CTCF/cohesin boundary; within the left TAD, an enhancer and its gene's promoter loop together; within the right TAD, a different enhancer-gene pair loops; arrows show interaction within TAD, blocked arrows show no interaction across boundary; student should see why TAD disruption allows enhancer-promoter mis-wiring] -->
+![TAD architecture ](images/06-gene-expression-regulation-fig-03.png)
+*Figure 6.3 — TAD architecture *
 
 The transcription factor layer is where cell identity lives. The human genome encodes roughly **1,600 transcription factors** — about 8% of all protein-coding genes. A given gene's enhancers contain binding sites for several TFs; the gene transcribes well only when enough of the required TFs are present and bound. Different cell types express different subsets of the 1,600. A liver cell expresses HNF4α, HNF1α, FOXA2, and C/EBPα. A neuron expresses NEUROD1, NEUROG2, NRSF/REST, and OLIG2. The *albumin* gene has enhancers with binding sites for the liver TF cocktail — only in a liver cell, where all four sites get bound, is *albumin* strongly expressed. In a neuron, the same *albumin* enhancers are present, the same binding sites exist in the DNA — but the TFs are not there, so the gene is silent. Same piano. Different fingers.
 
@@ -116,7 +124,8 @@ Three modalities operate in parallel.
 
 A methyl group added to position 5 of cytosine, almost exclusively at **CpG dinucleotides** in mammalian cells, producing **5-methylcytosine (5-mC)**. The methylation is symmetric — both strands of the CpG are methylated. When DNA replicates, each daughter duplex has one methylated strand (the parental template) and one unmethylated strand (the new copy). A maintenance methyltransferase, **DNMT1**, recognizes the hemi-methylated state and methylates the new strand to match. Methylation is propagated through every division with high fidelity.
 
-<!-- → [DIAGRAM: DNMT1 maintenance methylation at the replication fork — parent strand (methylated CpG shown as filled circle), newly synthesized strand (unmethylated CpG shown as open circle), DNMT1 bridging the hemi-methylated site, arrow showing methyl group added to new strand; student should see exactly how the symmetric mark is copied and why this makes epigenetic inheritance mechanistically possible] -->
+![DNMT1 maintenance methylation at the replication fork ](images/06-gene-expression-regulation-fig-04.png)
+*Figure 6.4 — DNMT1 maintenance methylation at the replication fork *
 
 In a gene's promoter — especially in a **CpG island**, a region of high CpG density typical of promoters — methylation strongly silences transcription. Methyl-CpG-binding proteins (MeCP2, MBD1, MBD2) recognize the marks and recruit histone deacetylases and other repressive machinery. Methylated CpGs also directly block the binding of some transcription factors. The result: a methylated promoter is functionally locked off.
 
@@ -135,7 +144,9 @@ A handful of marks recur across the literature:
 - **H3K9me3** — constitutive heterochromatin mark. Found at centromeres, telomeres, permanently silenced regions.
 - **Acetylation marks (H3K9ac, H3K27ac)** — active chromatin marks. Acetylation neutralizes the positive charge of histone lysines, weakening the electrostatic grip on the negatively charged DNA and loosening the nucleosome, increasing accessibility for transcription machinery.
 
-<!-- → [TABLE: histone modification reference — columns: mark, residue modified, enzyme that adds it (writer), enzyme that removes it (eraser), effect on transcription (active/repressive), location found; rows: H3K4me3, H3K27me3, H3K9me3, H3K27ac, H3K9ac — student should be able to read the notation, match mark to effect, and trace the writer-eraser logic] -->
+| mark | residue modified | enzyme that adds it (writer) | enzyme that removes it (eraser) | effect on transcription (active |
+| --- | --- | --- | --- | --- |
+| H3K4me3, H3K27me3, H3K9me3, H3K27ac, H3K9ac | student should be able to read the notation, match mark to effect, and trace the writer-eraser logic | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 The naming convention: *histone–residue–modification–valence*. H3K27me3 = histone H3, lysine 27, three methyl groups. Once you read the notation, histone marks are readable across the literature.
 
@@ -151,7 +162,8 @@ The mechanism runs through a long non-coding RNA called **XIST** (X-inactive spe
 
 Once established, the silencing is heritable. DNMT1 copies methylation through replication. PRC2 deposits fresh H3K27me3 on newly assembled nucleosomes. Every daughter of a cell that silenced the paternal X will silence the paternal X. Every daughter of a cell that silenced the maternal X will silence the maternal X.
 
-<!-- → [IMAGE: calico cat with patch boundaries annotated — orange patches labeled "Xi = X carrying O allele," black patches labeled "Xi = X carrying o allele," with a caption explaining each patch is a clone descended from one embryonic cell; student should see that the coat is a clonal lineage map, not a random-per-cell pigmentation decision] -->
+![Calico cat with patch boundaries annotated ](images/06-gene-expression-regulation-fig-05.png)
+*Figure 6.5 — Calico cat with patch boundaries annotated *
 
 The calico coat reads out this history. A patch of orange and a patch of black have a sharp boundary because each patch is a clone of cells descended from one embryonic cell in which one X-inactivation choice was made. The patches grow as the embryo develops, the clone expanding outward. The boundary is not a boundary between genotypes — every cell has both alleles. It is a boundary between epigenetic lineages. Look at a calico cat and you are reading the embryo's clonal history written in the silencing layer.
 
@@ -165,7 +177,8 @@ Post-transcriptional regulation gets its most impressive machinery from a class 
 
 A miRNA is a ~22-nucleotide non-coding RNA that base-pairs with a target mRNA — usually in the mRNA's 3' untranslated region — and either blocks translation or triggers mRNA degradation. The biogenesis: a miRNA gene is transcribed into a primary transcript with a characteristic hairpin. The nuclear enzyme Drosha cleaves the hairpin to a ~70-nucleotide precursor. The precursor is exported to the cytoplasm. **Dicer** cleaves it to a short duplex. One strand is loaded into an **Argonaute (AGO)** protein. The AGO-miRNA complex, together with associated factors, is the **RISC** (RNA-induced silencing complex). RISC finds target mRNAs by base-pairing through the miRNA's **seed region** (nucleotides 2–8) — the pairing needs to be perfect only in this seed; the rest can be imperfect. When the seed pairs, AGO either physically blocks ribosomes or recruits deadenylases that strip the poly(A) tail, destabilizing the mRNA.
 
-<!-- → [DIAGRAM: miRNA biogenesis and RISC silencing pathway — nucleus showing pri-miRNA → Drosha cleavage → pre-miRNA export; cytoplasm showing Dicer cleavage → duplex → AGO loading → RISC complex base-pairing with target mRNA 3' UTR → two outcome arrows (translational repression and mRNA degradation); student should trace the molecule from gene to silencing event and identify which step occurs in which cellular compartment] -->
+![MiRNA biogenesis and RISC silencing pathway ](images/06-gene-expression-regulation-fig-06.png)
+*Figure 6.6 — MiRNA biogenesis and RISC silencing pathway *
 
 The scale: ~2,000 miRNAs are encoded in the human genome. Each, through its promiscuous seed-matching, can target hundreds of distinct mRNAs. Roughly **60% of human protein-coding genes** are estimated to be subject to miRNA regulation. miRNAs are not minor tuning. They are a pervasive fine-tuning layer across the entire transcriptome.
 
@@ -183,7 +196,8 @@ The mRNA exists. It has survived the miRNA gauntlet. Two more layers between it 
 
 **Post-translational control.** A protein exists. How long does it last? The dominant answer in eukaryotes is the **ubiquitin–proteasome system (UPS)**. Ubiquitin is a 76-amino-acid protein that serves as a covalent destruction tag. A three-enzyme cascade — E1 (activating), E2 (conjugating), **E3 (ligase)** — transfers ubiquitin from a donor onto a target protein's lysine. Repeat the cycle and a polyubiquitin chain forms. The chain (specifically K48-linked) is recognized by the **26S proteasome**, which unfolds the target, threads it through a barrel-shaped proteolytic chamber, and degrades it into short peptides. A protein can go from fully functional to completely destroyed in minutes.
 
-<!-- → [DIAGRAM: ubiquitin-proteasome system — kinase phosphorylates substrate → E3 ligase recognizes phosphorylated substrate → E1/E2/E3 cascade attaches polyubiquitin chain → 26S proteasome barrel degrades substrate → ubiquitin recycled; each protein named; student should see the signal-to-destruction logic and understand that specificity lives at the E3 step] -->
+![Ubiquitin-proteasome system ](images/06-gene-expression-regulation-fig-07.png)
+*Figure 6.7 — Ubiquitin-proteasome system *
 
 The specificity of the system is at the E3 ligases — over 600 distinct E3s in humans, each recognizing specific substrates, usually requiring that the substrate first be phosphorylated or otherwise modified at a specific site. The kinase responds to a signal; the E3 reads the modification; the proteasome destroys the substrate. The whole cascade can traverse in minutes.
 
@@ -305,3 +319,69 @@ What changes? What gets better? What gets worse?
 ---
 
 *By Nik Bear Brown*
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 6.1 — Five regulatory layers as a vertical pipeline 
+
+Create a standalone D3 v7 HTML file for Figure Five regulatory layers as a vertical pipeline . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: five regulatory layers as a vertical pipeline — Layer 1 (DNA/transcription) → Layer 2 (pre-mRNA/splicing) → Layer 3 (mRNA/translation) → Layer 4 (protein/modification) → Layer 5 (chromatin/epigenetic) running beneath all others as the foundation; each layer labeled with its timescale (milliseconds to lifetime) and one example intervention; student should see that the layers are not sequential alternatives but simultaneous controls at different points in gene expression. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/06-gene-expression-regulation-fig-01.html`
+
+---
+
+### Figure 6.2 — Diauxic growth curve 
+
+Create a standalone D3 v7 HTML file for Figure Diauxic growth curve . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: diauxic growth curve — x-axis: time; y-axis: optical density (log scale); two labeled phases of exponential growth separated by a lag period; annotations marking "glucose consumed," "lac operon inducing," "lactose growth resumes"; student should see the kink as the AND-gate switching state, not as a pause or error. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/06-gene-expression-regulation-fig-02.html`
+
+---
+
+### Figure 6.3 — TAD architecture 
+
+Create a standalone D3 v7 HTML file for Figure TAD architecture . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: TAD architecture — schematic of a chromatin fiber folded into two TADs separated by a CTCF/cohesin boundary; within the left TAD, an enhancer and its gene's promoter loop together; within the right TAD, a different enhancer-gene pair loops; arrows show interaction within TAD, blocked arrows show no interaction across boundary; student should see why TAD disruption allows enhancer-promoter mis-wiring. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/06-gene-expression-regulation-fig-03.html`
+
+---
+
+### Figure 6.4 — DNMT1 maintenance methylation at the replication fork 
+
+Create a standalone D3 v7 HTML file for Figure DNMT1 maintenance methylation at the replication fork . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: DNMT1 maintenance methylation at the replication fork — parent strand (methylated CpG shown as filled circle), newly synthesized strand (unmethylated CpG shown as open circle), DNMT1 bridging the hemi-methylated site, arrow showing methyl group added to new strand; student should see exactly how the symmetric mark is copied and why this makes epigenetic inheritance mechanistically possible. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/06-gene-expression-regulation-fig-04.html`
+
+---
+
+### Figure 6.5 — Calico cat with patch boundaries annotated 
+
+Create a standalone D3 v7 HTML file for Figure Calico cat with patch boundaries annotated . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: calico cat with patch boundaries annotated — orange patches labeled "Xi = X carrying O allele," black patches labeled "Xi = X carrying o allele," with a caption explaining each patch is a clone descended from one embryonic cell; student should see that the coat is a clonal lineage map, not a random-per-cell pigmentation decision. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/06-gene-expression-regulation-fig-05.html`
+
+---
+
+### Figure 6.6 — MiRNA biogenesis and RISC silencing pathway 
+
+Create a standalone D3 v7 HTML file for Figure MiRNA biogenesis and RISC silencing pathway . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: miRNA biogenesis and RISC silencing pathway — nucleus showing pri-miRNA → Drosha cleavage → pre-miRNA export; cytoplasm showing Dicer cleavage → duplex → AGO loading → RISC complex base-pairing with target mRNA 3' UTR → two outcome arrows (translational repression and mRNA degradation); student should trace the molecule from gene to silencing event and identify which step occurs in which cellular compartment. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/06-gene-expression-regulation-fig-06.html`
+
+---
+
+### Figure 6.7 — Ubiquitin-proteasome system 
+
+Create a standalone D3 v7 HTML file for Figure Ubiquitin-proteasome system . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: ubiquitin-proteasome system — kinase phosphorylates substrate → E3 ligase recognizes phosphorylated substrate → E1/E2/E3 cascade attaches polyubiquitin chain → 26S proteasome barrel degrades substrate → ubiquitin recycled; each protein named; student should see the signal-to-destruction logic and understand that specificity lives at the E3 step. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/06-gene-expression-regulation-fig-07.html`

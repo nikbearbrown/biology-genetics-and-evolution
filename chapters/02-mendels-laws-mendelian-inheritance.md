@@ -22,7 +22,9 @@ First, reproductive control. Pea flowers are normally self-pollinating — each 
 
 Second, pure-breeding lines with binary traits. Mendel chose seven characters, each appearing in exactly two forms: round or wrinkled seeds, yellow or green seeds, violet or white flowers, tall or dwarf stems, and three others. Every plant is unambiguously one or the other — no "medium-tall," no "slightly wrinkled." This binary classification is what makes counting ratios meaningful. If you try to measure stem height as a continuous number, you get a bell curve in the offspring, and there is no ratio to see. Mendel tested many traits before settling on these seven because most traits are not binary. The binary ones are rare and he found them.
 
-<!-- → [TABLE: Mendel's seven pea traits — columns: character, dominant state (with symbol), recessive state (with symbol); rows: seed shape, seed color, pod shape, pod color, flower color, flower position, stem length. Student should see that every trait snaps between exactly two states with no intermediate category, which is what makes counting ratios possible.] -->
+| character | dominant state (with symbol) | recessive state (with symbol) |
+| --- | --- | --- |
+| seed shape, seed color, pod shape, pod color, flower color, flower position, stem length. Student should see that every trait snaps between exactly two states with no intermediate category, which is what makes counting ratios possible. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 He then spent two years establishing *pure-breeding lines* — letting plants self-pollinate for generation after generation until the offspring of a tall plant were always tall and the offspring of a dwarf plant were always dwarf, with no exceptions. A pure-breeding line is, in modern language, homozygous: both copies of the relevant gene carry the same allele. Cross a pure-breeding tall plant (TT) with a pure-breeding dwarf plant (tt), and you know exactly what each parent contributed. There is no hidden third allele lurking in the background to mess up the ratios.
 
@@ -46,7 +48,9 @@ He grew 929 F₂ plants from the flower-color cross: 705 violet, 224 white. Rati
 
 The number 1/4 demands a mechanism that produces 1/4.
 
-<!-- → [TABLE: Mendel's published F₂ counts across all seven traits — columns: character, dominant count, recessive count, observed ratio, expected ratio; one row per trait. Student should see that all seven ratios cluster around 3:1 and that the deviations are small relative to the sample sizes, which is the statistical argument that forces the model.] -->
+| character | dominant count | recessive count | observed ratio | expected ratio |
+| --- | --- | --- | --- | --- |
+| Mendel's published F₂ counts across all seven traits — | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 ---
 
@@ -67,7 +71,8 @@ Genotype ratio in F₂: 1 RR : 2 Rr : 1 rr. Under dominance, RR and Rr both show
 
 The Punnett square is just this calculation written as a table. Each row is one parent's possible gamete (R or r, equally likely). Each column is the other parent's possible gamete. Each cell is the resulting zygote — one of four equally likely outcomes. Three cells show at least one R (dominant phenotype); one cell shows rr (recessive phenotype). This is not a new calculation; it is the same 1/2 × 1/2 = 1/4 product rule written in boxes. The table is the arithmetic, drawn out.
 
-<!-- → [INFOGRAPHIC: 2×2 Punnett square for Rr × Rr — rows and columns labeled with gametes (R and r), cells showing genotypes (RR, Rr, Rr, rr), cells color-coded by phenotype class (three cells shaded for dominant/round, one cell shaded for recessive/wrinkled). A bracket groups the three dominant cells with "3/4" and labels the one recessive cell "1/4". Student should see that the Punnett square is the product-rule calculation laid out as a grid, not a separate method.] -->
+![2×2 Punnett square for Rr × Rr ](images/02-mendels-laws-mendelian-inheritance-fig-01.png)
+*Figure 2.1 — 2×2 Punnett square for Rr × Rr *
 
 ---
 
@@ -108,7 +113,8 @@ The Punnett square for this cross is a 4 × 4 grid (each parent makes four gamet
 
 Both methods give identical answers because they are identical calculations in different notation. The Punnett square enumerates all 4 × 4 = 16 outcomes explicitly. The product rule reaches the same answer by multiplying the marginal probabilities. For two loci, the table is a useful visual. For three loci, the Punnett square is 8 × 8 = 64 cells — cumbersome but manageable. For four loci, it is 16 × 16 = 256 cells — you would not build it by hand.
 
-<!-- → [INFOGRAPHIC: side-by-side comparison of the 4×4 dihybrid Punnett square (YyRr × YyRr) and the product-rule calculation — left panel shows the 16-cell grid with cells grouped and counted by phenotype class (9 yellow round, 3 yellow wrinkled, 3 green round, 1 green wrinkled); right panel shows the four product-rule multiplications (3/4 × 3/4 = 9/16, etc.). An equals sign between the two panels. Student should see that both panels produce identical numbers and that the product rule is the algebra underlying the Punnett-square count.] --> The product rule for three independently assorting loci is three multiplications:
+![Comparison of the 4×4 dihybrid Punnett square (YyRr](images/02-mendels-laws-mendelian-inheritance-fig-02.png)
+*Figure 2.2 — Comparison of the 4×4 dihybrid Punnett square (YyRr* The product rule for three independently assorting loci is three multiplications:
 
 - P(dominant at all three) = 3/4 × 3/4 × 3/4 = **27/64**
 - P(dominant at exactly two) = 3 × (3/4 × 3/4 × 1/4) = **9/64** per class
@@ -117,7 +123,8 @@ Both methods give identical answers because they are identical calculations in d
 
 Trihybrid F₂ ratio: 27:9:9:9:3:3:3:1. The eight classes sum to 64 = 4³. Mendel's framework generalizes cleanly to any number of independently assorting loci. The Punnett square scales as 4ⁿ. The product rule scales as *n* multiplications. The intelligence in the framework is that the product rule *is* Mendel's third law, written as arithmetic.
 
-<!-- → [CHART: bar chart showing the eight phenotype-class probabilities for a trihybrid F₂ cross (27/64, 9/64, 9/64, 9/64, 3/64, 3/64, 3/64, 1/64) — bars labeled by which loci are dominant and which are recessive in each class, bars color-coded by number of dominant loci (dark for all-dominant, progressively lighter for fewer dominant loci). Student should see the pattern: each step down from 3 dominant loci to 2 to 1 to 0 multiplies the probability by 1/3.] -->
+![Bar chart showing the eight phenotype-class probabilities for](images/02-mendels-laws-mendelian-inheritance-fig-03.png)
+*Figure 2.3 — Bar chart showing the eight phenotype-class probabilities for*
 
 ---
 
@@ -133,7 +140,11 @@ The cross is Cf⁺/Cf⁻ × Cf⁺/Cf⁻. This is exactly Mendel's monohybrid Aa 
 - P(Cf⁺/Cf⁻, unaffected carrier) = **1/2**
 - P(Cf⁻/Cf⁻, affected with CF) = **1/4**
 
-<!-- → [TABLE: binomial probability table for cystic fibrosis recurrence — rows: number of affected children (0 through 4); columns: N = 1, 2, 3, 4 total pregnancies; each cell shows P(exactly k affected of N). Student should see that the per-pregnancy risk of 1/4 compounds differently depending on family size, and that 31.6% of 4-child families with two carriers will have zero affected children.] -->
+| N = 1 | 2 | 3 | 4 total pregnancies |
+| --- | --- | --- | --- |
+| number of affected children (0 through 4 | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| columns: N = 1, 2, 3, 4 total pregnancies | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| each cell shows P(exactly k affected of N). Student should see that the per-pregnancy risk of 1 | 4 compounds differently depending on family size, and that 31.6% of 4-child families with two carriers will have zero affected children. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 The genetic counselor tells the couple: per pregnancy, there is a 25% chance of an affected child, a 50% chance of an unaffected carrier, and a 25% chance of an unaffected non-carrier. Those are the exact numbers. They are the 1:2:1 genotype ratio from Mendel's 1865 paper, with Cf⁺ and Cf⁻ in place of R and r. The arithmetic is unchanged. Only the labels have changed.
 
@@ -165,7 +176,8 @@ If the unknown is Rr: half the unknown's gametes are R, half are r. The offsprin
 
 The test cross forces the hidden allele in the heterozygote to reveal itself in the next generation by removing the masking dominant allele from the other parent. It is a resolution device. It is also the logic behind modern molecular carrier testing, where the same question — is this person homozygous wild-type or heterozygous carrier? — is now answered by sequencing rather than by crossing, but the underlying conceptual framework is Mendel's.
 
-<!-- → [INFOGRAPHIC: two-panel test cross diagram — left panel: unknown RR plant × rr tester, showing all-round offspring with label "all dominant → genotype was RR"; right panel: unknown Rr plant × rr tester, showing 1:1 round:wrinkled offspring with label "half recessive → genotype was Rr". Student should see that the tester's r gametes act as a transparent background that makes the unknown plant's gamete contribution directly visible in the offspring phenotype.] -->
+![Test cross diagram ](images/02-mendels-laws-mendelian-inheritance-fig-04.png)
+*Figure 2.4 — Test cross diagram *
 
 One practical note: the test cross gives ambiguous results at small sample sizes. If your unknown is Rr and you cross it with rr and happen to get five round offspring and zero wrinkled, you might conclude — wrongly — that it was RR. The probability of five dominant offspring in a row from an Rr parent is (1/2)⁵ = 1/32 ≈ 3%. Not negligible. To distinguish RR from Rr reliably, you want 20 to 50 offspring — enough that the binomial sampling fluctuations cannot credibly fake either result. This is the same problem of sample size that drove Mendel to 28,000 plants. Statistical laws are only visible at statistical scales.
 
@@ -405,3 +417,45 @@ This extension is what makes the Mendelian framework *clinically usable* — the
 ---
 
 *The next chapter takes up what happens when Mendel's assumptions break. Incomplete dominance, where heterozygotes show an intermediate phenotype — pink snapdragons from a red × white cross. Codominance, where both alleles are fully expressed simultaneously — AB blood type. Polygenic inheritance, where many genes contribute to one continuous trait — human height, skin color. Epistasis, where one gene's expression depends on another gene's genotype. Linkage, where two genes on the same chromosome refuse to assort independently. Each of these is a refinement of Mendel's model, not a refutation. The arithmetic stays the same. The inputs change.*
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 2.1 — 2×2 Punnett square for Rr × Rr 
+
+Create a standalone D3 v7 HTML file for Figure 2×2 Punnett square for Rr × Rr . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: 2×2 Punnett square for Rr × Rr — rows and columns labeled with gametes (R and r), cells showing genotypes (RR, Rr, Rr, rr), cells color-coded by phenotype class (three cells shaded for dominant/round, one cell shaded for recessive/wrinkled). A bracket groups the three dominant cells with "3/4" and labels the one recessive cell "1/4". Student should see that the Punnett square is the product-rule calculation laid out as a grid, not a separate method.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-mendels-laws-mendelian-inheritance-fig-01.html`
+
+---
+
+### Figure 2.2 — Comparison of the 4×4 dihybrid Punnett square (YyRr
+
+Create a standalone D3 v7 HTML file for Figure Comparison of the 4×4 dihybrid Punnett square (YyRr. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: side-by-side comparison of the 4×4 dihybrid Punnett square (YyRr × YyRr) and the product-rule calculation — left panel shows the 16-cell grid with cells grouped and counted by phenotype class (9 yellow round, 3 yellow wrinkled, 3 green round, 1 green wrinkled); right panel shows the four product-rule multiplications (3/4 × 3/4 = 9/16, etc.). An equals sign between the two panels. Student should see that both panels produce identical numbers and that the product rule is the algebra underlying the Punnett-square count.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-mendels-laws-mendelian-inheritance-fig-02.html`
+
+---
+
+### Figure 2.3 — Bar chart showing the eight phenotype-class probabilities for
+
+Create a standalone D3 v7 HTML file for Figure Bar chart showing the eight phenotype-class probabilities for. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: bar chart showing the eight phenotype-class probabilities for a trihybrid F₂ cross (27/64, 9/64, 9/64, 9/64, 3/64, 3/64, 3/64, 1/64) — bars labeled by which loci are dominant and which are recessive in each class, bars color-coded by number of dominant loci (dark for all-dominant, progressively lighter for fewer dominant loci). Student should see the pattern: each step down from 3 dominant loci to 2 to 1 to 0 multiplies the probability by 1/3.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-mendels-laws-mendelian-inheritance-fig-03.html`
+
+---
+
+### Figure 2.4 — Test cross diagram 
+
+Create a standalone D3 v7 HTML file for Figure Test cross diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: two-panel test cross diagram — left panel: unknown RR plant × rr tester, showing all-round offspring with label "all dominant → genotype was RR"; right panel: unknown Rr plant × rr tester, showing 1:1 round:wrinkled offspring with label "half recessive → genotype was Rr". Student should see that the tester's r gametes act as a transparent background that makes the unknown plant's gamete contribution directly visible in the offspring phenotype.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-mendels-laws-mendelian-inheritance-fig-04.html`

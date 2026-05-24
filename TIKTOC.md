@@ -3,7 +3,7 @@
 
 **Working title:** Biology +1: Genetics & Evolution — Interactive Simulations with Claude and D3
 **Series:** Biology +1 Series
-**Author:** Nik Bear Brown · ni.brown@neu.edu · Bear Brown & Company
+**Author:** Humanitarians AI · ni.brown@neu.edu · Bear Brown & Company
 **Repo:** biology-plus-one-genetics-and-evolution
 **Version:** 1.0
 **Status:** TIKTOC complete — ready for research gathering and chapter drafting

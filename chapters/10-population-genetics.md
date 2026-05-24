@@ -17,7 +17,8 @@ p(next) = p² × 1 + 2pq × ½ + q² × 0 = p² + pq = p(p + q) = p
 
 Nothing changed. The allele frequencies sit at *p* and *q* forever. The genotype frequencies sit at p², 2pq, q² forever. Brown eyes are not going anywhere, because dominance is a fact about *expression*, not about *frequency*. An allele rises in frequency only if something is actually driving it — selection, drift, migration, mutation. Without any such force, the population sits still.
 
-<!-- → [IMAGE: Hardy-Weinberg random mating diagram — a gene pool shown as a bucket of alleles (fraction p labeled A in dark blue, fraction q labeled a in light blue); two arrows drawing one allele each to form an offspring; four possible combinations shown below: A+A = AA (probability p²), A+a = Aa (probability pq), a+A = Aa (probability qp), a+a = aa (probability q²); boxes for Aa and aA collapsed into one labeled 2pq; final genotype frequencies p², 2pq, q² labeled below with the note "these sum to 1 because (p+q)² = 1"] -->
+![Hardy-Weinberg random mating diagram ](images/10-population-genetics-fig-01.png)
+*Figure 10.1 — Hardy-Weinberg random mating diagram *
 
 Weinberg in Germany derived the same result the same year, from medical-genetics data on twins and color blindness. For decades it was called "Hardy's law" in English and "Weinberg's law" in German. Eventually the joint attribution settled in: **Hardy-Weinberg equilibrium**.
 
@@ -37,7 +38,8 @@ These are related but different quantities, and population genetics tracks allel
 
 This is exactly where Yule went wrong. He tracked genotype frequencies — the brown-eyed ratio — and expected them to drift upward. Hardy saw that what matters is the allele frequency underneath, and that allele frequency, under random mating alone, stays put.
 
-<!-- → [IMAGE: Numerical worked example of allele frequency counting — a population of 10 individuals shown as circles, each divided into two halves representing their two alleles: 4 circles show AA (both halves dark blue), 4 show Aa (one half each), 2 show aa (both halves light blue); below the circles, tally: A alleles = (4×2) + (4×1) = 12; a alleles = (4×1) + (2×2) = 8; total alleles = 20; p = 12/20 = 0.60; q = 8/20 = 0.40; annotated: "genotype frequencies: AA = 4/10, Aa = 4/10, aa = 2/10; allele frequencies: p = 0.60, q = 0.40; shortcut: p = f(AA) + ½f(Aa) = 0.40 + 0.20 = 0.60"] -->
+![Numerical worked example of allele frequency counting ](images/10-population-genetics-fig-02.png)
+*Figure 10.2 — Numerical worked example of allele frequency counting *
 
 ---
 
@@ -69,7 +71,8 @@ For μ = 10⁻⁵ and *s* = 0.5, that is about q* ≈ 0.0045, giving disease inc
 
 The peppered moth *Biston betularia* illustrates the other direction. A single transposable-element insertion into the cortex gene created the *carbonaria* dark allele in industrial England. Without that mutation, there was no variant for selection to act on and no adaptation was possible. Without selection, the mutation would have vanished from drift almost immediately. Mutation supplied; selection sorted.
 
-<!-- → [CHART: Mutation-selection balance — x-axis: selection coefficient s (0.01 to 1.0, log scale); y-axis: equilibrium allele frequency q* (0.0001 to 0.1, log scale); three curves shown for μ = 10⁻⁶, 10⁻⁵, and 10⁻⁴, each following q* = √(μ/s); annotated with reference points: μ = 10⁻⁵, s = 0.5 → q* ≈ 0.0045, disease incidence q*² ≈ 1/50,000; caption: "Stronger selection (higher s) drives q* lower; higher mutation rate (higher μ) raises q* — the disease frequency is set by their ratio"] -->
+![Stronger selection (higher s) drives q* lower; higher mutation rate (higher μ) raises q* — the disease frequency is set by their ratio](images/10-population-genetics-fig-03.png)
+*Figure 10.3 — Mutation-selection balance *
 
 ---
 
@@ -105,7 +108,8 @@ Var(p') = pq / (2N)
 
 The standard deviation is √(pq / 2N). At N = 10,000, the standard deviation of allele frequency change per generation is about 0.5%. At N = 100, it is about 5%. At N = 10, it exceeds 15%.
 
-<!-- → [CHART: Genetic drift trajectories — three panels side by side, each showing 10 replicate runs of allele frequency over 200 generations starting at p = 0.5; left panel: Ne = 10,000 (all lines stay near 0.5, narrow band); middle panel: Ne = 100 (lines wander substantially, some reaching 0 or 1); right panel: Ne = 10 (nearly all lines reach fixation or loss within 100 generations); x-axis: generation; y-axis: allele frequency 0–1; caption: "Drift magnitude scales as 1/√Ne — in small populations, allele frequencies wander and alleles are lost; in large populations, they barely move"] -->
+![Drift magnitude scales as 1/√Ne — in small populations, allele frequencies wander and alleles are lost; in large populations, they barely move](images/10-population-genetics-fig-04.png)
+*Figure 10.4 — Genetic drift trajectories *
 
 Three consequences dominate the chapter.
 
@@ -157,7 +161,8 @@ With inbreeding, genotype frequencies depart from Hardy-Weinberg:
 
 The heterozygote frequency drops by Fpq; that deficit is split evenly between the two homozygote classes. Allele frequencies are unchanged; it is the diploid pairings that are reshuffled.
 
-<!-- → [IMAGE: Inbreeding effect on genotype frequencies — two stacked bar charts side by side, both at p = 0.7, q = 0.3: left bar (F = 0, random mating) shows AA = 0.49, Aa = 0.42, aa = 0.09 in dark/medium/light blue; right bar (F = 0.25, offspring of full siblings) shows AA = 0.49 + 0.25×0.21 = 0.543, Aa = 0.42×0.75 = 0.315, aa = 0.09 + 0.25×0.21 = 0.143; arrows showing the deficit in Aa and surplus in AA and aa; annotated: "Allele frequencies unchanged: p = 0.70, q = 0.30 in both — only the diploid pairings shift"] -->
+![Inbreeding effect on genotype frequencies ](images/10-population-genetics-fig-05.png)
+*Figure 10.5 — Inbreeding effect on genotype frequencies *
 
 The consequence is **inbreeding depression**. Deleterious recessive alleles that were hiding in heterozygotes are now exposed in homozygotes. Offspring of first-cousin marriages carry about 1.7–2.8% additional risk of severe genetic disease above the baseline ~2% — approximately doubling the background risk. In experimentally inbred *Drosophila* lines, inbreeding depression on fitness can reach 30–80% within a few generations.
 
@@ -195,7 +200,8 @@ The model predicts HbS should sit at about 11% in malaria-endemic West Africa. T
 
 That is the chapter's deep-dive result. *One division predicts the equilibrium frequency of a clinically significant allele in a real human population to within a percentage point.* The math works because the biology is exactly what the model says: heterozygotes have a fitness advantage in the malarial environment, both homozygotes pay a cost, and selection balances the two costs at the predicted equilibrium.
 
-<!-- → [CHART: Two-panel figure — left panel: fitness landscape showing wAA, wAS, wSS on the y-axis and the three genotypes on the x-axis, with wAS highest and an arrow labeled "heterozygote advantage"; right panel: allele-frequency dynamics over 100 generations starting from three different values of q (0.01, 0.50, 0.99), all converging to q* ≈ 0.111 — arrows showing convergence from above and below; annotated with the equilibrium equation q* = sAA/(sAA + sSS)] -->
+![Figure ](images/10-population-genetics-fig-06.png)
+*Figure 10.6 — Figure *
 
 The equilibrium is **stable** — if *q* is perturbed above 0.111, selection against HbSS homozygotes increases faster than selection against HbAA decreases, pulling *q* back down. If *q* drifts below 0.111, selection against HbAA homozygotes via malaria pulls it back up.
 
@@ -211,7 +217,8 @@ Test the prediction against a real population that has recently moved out of mal
 
 The framework predicts not just the equilibrium in West Africa but the *decline in a population that moved away from the selecting environment*. Both predictions roughly match. Population genetics works.
 
-<!-- → [IMAGE: Geographic map overlay — HbS allele frequency plotted on a map of Africa and neighboring regions, color-coded from low (blue, ~0.01) to high (red, ~0.15); overlaid contour lines showing historical malaria endemicity; the near-perfect spatial correlation between HbS frequency and malaria burden visible as aligned gradients — annotated: "The distribution of HbS mirrors the historical distribution of P. falciparum"] -->
+![Geographic map overlay ](images/10-population-genetics-fig-07.png)
+*Figure 10.7 — Geographic map overlay *
 
 ---
 
@@ -229,7 +236,13 @@ This explains the neutral theory: most molecular variation has very small fitnes
 
 The summary: **large populations with strong selection produce deterministic directional change or stable polymorphisms. Small populations wander by drift. Intermediate populations show a mix, and which force dominates depends on *Ne* × *s* for selection/drift and *m* vs. *s* for gene flow/selection.** Most real-world cases are in the intermediate regime, with multiple forces contributing. The framework handles all of them with the same five equations.
 
-<!-- → [TABLE: Five forces of evolution — columns: force, violated HWE assumption, what it does to allele frequencies, key parameter, worked example from this chapter — rows: Mutation (no mutation assumed, introduces new alleles, μ per locus per generation, peppered moth cortex insertion), Natural selection (equal fitness assumed, directional change or equilibrium, selection coefficient s, sickle cell balanced polymorphism), Genetic drift (infinite population assumed, random walk toward fixation/loss, 1/Ne, Amish founder effect / cheetah bottleneck), Gene flow (closed population assumed, homogenization between populations, migration rate m, Florida panther genetic rescue), Non-random mating (random mating assumed, genotype frequencies change without allele frequency change, inbreeding coefficient F, Ellis-van Creveld in Lancaster Amish)] -->
+| force | violated HWE assumption | what it does to allele frequencies | key parameter | worked example from this chapter — |
+| --- | --- | --- | --- | --- |
+| Mutation (no mutation assumed, introduces new alleles, μ per locus per generation, peppered moth cortex insertion | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | Use the chapter example as the concrete test case. |
+| Natural selection (equal fitness assumed, directional change or equilibrium, selection coefficient s, sickle cell balanced polymorphism | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | Use the chapter example as the concrete test case. |
+| Genetic drift (infinite population assumed, random walk toward fixation | loss, 1 | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | Use the chapter example as the concrete test case. |
+| Gene flow (closed population assumed, homogenization between populations, migration rate m, Florida panther genetic rescue | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | Use the chapter example as the concrete test case. |
+| Non-random mating (random mating assumed, genotype frequencies change without allele frequency change, inbreeding coefficient F, Ellis-van Creveld in Lancaster Amish | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | Use the chapter example as the concrete test case. |
 
 ---
 
@@ -385,3 +398,69 @@ views on the usefulness of mathematics.
 - Ask it to compare the Hardy-Weinberg equilibrium to other "null models" in science — what other null models in physics, chemistry, or ecology play the same logical role?
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 10.1 — Hardy-Weinberg random mating diagram 
+
+Create a standalone D3 v7 HTML file for Figure Hardy-Weinberg random mating diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Hardy-Weinberg random mating diagram — a gene pool shown as a bucket of alleles (fraction p labeled A in dark blue, fraction q labeled a in light blue); two arrows drawing one allele each to form an offspring; four possible combinations shown below: A+A = AA (probability p²), A+a = Aa (probability pq), a+A = Aa (probability qp), a+a = aa (probability q²); boxes for Aa and aA collapsed into one labeled 2pq; final genotype frequencies p², 2pq, q² labeled below with the note "these sum to 1 because (p+q)² = 1". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-population-genetics-fig-01.html`
+
+---
+
+### Figure 10.2 — Numerical worked example of allele frequency counting 
+
+Create a standalone D3 v7 HTML file for Figure Numerical worked example of allele frequency counting . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Numerical worked example of allele frequency counting — a population of 10 individuals shown as circles, each divided into two halves representing their two alleles: 4 circles show AA (both halves dark blue), 4 show Aa (one half each), 2 show aa (both halves light blue); below the circles, tally: A alleles = (4×2) + (4×1) = 12; a alleles = (4×1) + (2×2) = 8; total alleles = 20; p = 12/20 = 0.60; q = 8/20 = 0.40; annotated: "genotype frequencies: AA = 4/10, Aa = 4/10, aa = 2/10; allele frequencies: p = 0.60, q = 0.40; shortcut: p = f(AA) + ½f(Aa) = 0.40 + 0.20 = 0.60". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/m
+
+> Reference implementation: `d3/10-population-genetics-fig-02.html`
+
+---
+
+### Figure 10.3 — Mutation-selection balance 
+
+Create a standalone D3 v7 HTML file for Figure Mutation-selection balance . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Mutation-selection balance — x-axis: selection coefficient s (0.01 to 1.0, log scale); y-axis: equilibrium allele frequency q* (0.0001 to 0.1, log scale); three curves shown for μ = 10⁻⁶, 10⁻⁵, and 10⁻⁴, each following q* = √(μ/s); annotated with reference points: μ = 10⁻⁵, s = 0.5 → q* ≈ 0.0045, disease incidence q*² ≈ 1/50,000; caption: "Stronger selection (higher s) drives q* lower; higher mutation rate (higher μ) raises q* — the disease frequency is set by their ratio". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-population-genetics-fig-03.html`
+
+---
+
+### Figure 10.4 — Genetic drift trajectories 
+
+Create a standalone D3 v7 HTML file for Figure Genetic drift trajectories . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Genetic drift trajectories — three panels side by side, each showing 10 replicate runs of allele frequency over 200 generations starting at p = 0.5; left panel: Ne = 10,000 (all lines stay near 0.5, narrow band); middle panel: Ne = 100 (lines wander substantially, some reaching 0 or 1); right panel: Ne = 10 (nearly all lines reach fixation or loss within 100 generations); x-axis: generation; y-axis: allele frequency 0–1; caption: "Drift magnitude scales as 1/√Ne — in small populations, allele frequencies wander and alleles are lost; in large populations, they barely move". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-population-genetics-fig-04.html`
+
+---
+
+### Figure 10.5 — Inbreeding effect on genotype frequencies 
+
+Create a standalone D3 v7 HTML file for Figure Inbreeding effect on genotype frequencies . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Inbreeding effect on genotype frequencies — two stacked bar charts side by side, both at p = 0.7, q = 0.3: left bar (F = 0, random mating) shows AA = 0.49, Aa = 0.42, aa = 0.09 in dark/medium/light blue; right bar (F = 0.25, offspring of full siblings) shows AA = 0.49 + 0.25×0.21 = 0.543, Aa = 0.42×0.75 = 0.315, aa = 0.09 + 0.25×0.21 = 0.143; arrows showing the deficit in Aa and surplus in AA and aa; annotated: "Allele frequencies unchanged: p = 0.70, q = 0.30 in both — only the diploid pairings shift". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-population-genetics-fig-05.html`
+
+---
+
+### Figure 10.6 — Figure 
+
+Create a standalone D3 v7 HTML file for Figure Figure . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Two-panel figure — left panel: fitness landscape showing wAA, wAS, wSS on the y-axis and the three genotypes on the x-axis, with wAS highest and an arrow labeled "heterozygote advantage"; right panel: allele-frequency dynamics over 100 generations starting from three different values of q (0.01, 0.50, 0.99), all converging to q* ≈ 0.111 — arrows showing convergence from above and below; annotated with the equilibrium equation q* = sAA/(sAA + sSS). Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-population-genetics-fig-06.html`
+
+---
+
+### Figure 10.7 — Geographic map overlay 
+
+Create a standalone D3 v7 HTML file for Figure Geographic map overlay . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Geographic map overlay — HbS allele frequency plotted on a map of Africa and neighboring regions, color-coded from low (blue, ~0.01) to high (red, ~0.15); overlaid contour lines showing historical malaria endemicity; the near-perfect spatial correlation between HbS frequency and malaria burden visible as aligned gradients — annotated: "The distribution of HbS mirrors the historical distribution of P. falciparum". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-population-genetics-fig-07.html`

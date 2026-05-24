@@ -44,7 +44,12 @@ A **frameshift** indel shifts the reading frame. Every codon downstream of the i
 
 The pedagogical move: β-globin, one gene, four mutations, three diseases. GAG→GTG at codon 6 is missense (sickle cell). AAG→TAG at codon 17 is nonsense (β⁰-thalassemia). A single-base insertion in exon 1 is frameshift (thalassemia from truncation). A G→A at the 5' splice site of intron 1 is a splice-site mutation — the intron is not removed, the reading frame is disrupted, the protein is absent. Same gene. Four molecular categories. One gene does not care which happens; the chemistry of each change determines the outcome.
 
-<!-- → [TABLE: four-row summary of the β-globin mutation examples — columns: mutation name, DNA change, mutation type (missense/nonsense/frameshift/splice-site), protein consequence, disease. Rows: HbS (GAG→GTG at codon 6, missense, Glu→Val, sickle cell); β⁰-thalassemia (AAG→TAG at codon 17, nonsense, truncation via premature stop, β-thalassemia); β-thalassemia frameshift (single-base insertion exon 1, frameshift, scrambled sequence + premature stop, β-thalassemia); β-thalassemia splice-site (G→A at 5' splice site intron 1, splice-site, intron retained, protein absent). Student should see that the same gene produces four distinct molecular categories of change with different protein consequences.] -->
+| mutation name | DNA change | mutation type (missense | nonsense | frameshift |
+| --- | --- | --- | --- | --- |
+| HbS (GAG→GTG at codon 6, missense, Glu→Val, sickle cell | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| β⁰-thalassemia (AAG→TAG at codon 17, nonsense, truncation via premature stop, β-thalassemia | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| β-thalassemia frameshift (single-base insertion exon 1, frameshift, scrambled sequence + premature stop, β-thalassemia | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| β-thalassemia splice-site (G→A at 5' splice site intron 1, splice-site, intron retained, protein absent). Student should see that the same gene produces four distinct molecular categories of change with different protein consequences. | The pattern becomes easy to misuse or overlook. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 ---
 
@@ -76,7 +81,8 @@ The pedagogical move: β-globin, one gene, four mutations, three diseases. GAG�
 
 The further brilliance: many carcinogens are not active in their parent form — they need metabolic activation by liver cytochrome P450 enzymes to become reactive electrophiles. Bacteria have no liver. Ames added rat liver homogenate (the S9 fraction) to the plate. Now the bacteria see whatever the rat liver makes from the test chemical. The assay tests pre-carcinogens as well as carcinogens. Roughly 90% concordance between bacterial mutagenicity and animal carcinogenicity was the result. "Carcinogens are mutagens" was earned, not assumed. The Ames test is now a regulatory standard worldwide for consumer chemical screening.
 
-<!-- → [INFOGRAPHIC: Ames test workflow — left panel shows plates for TA98 (frameshift tester strain) and TA100 (base-substitution tester strain) without test chemical (background revertant colonies only); center panel shows the same plates with test chemical added (elevated colony counts on one or both); right panel shows S9 fraction addition for pre-carcinogen activation. Student should see how running the chemical on both strains simultaneously identifies not just mutagenicity but mutation type, and how the S9 liver fraction extends the assay to metabolically activated carcinogens.] -->
+![Ames test workflow ](images/08-mutation-dna-damage-cancer-fig-01.png)
+*Figure 8.1 — Ames test workflow *
 
 ---
 
@@ -86,7 +92,8 @@ Mutation rate is a probability per unit of opportunity. The units must be stated
 
 SARS-CoV-2: ~1.3 × 10⁻⁶ per site per replication cycle. RNA-dependent RNA polymerase has essentially no proofreading. HIV reverse transcriptase: ~3 × 10⁻⁵ per site per replication. *E. coli*: 2.2 × 10⁻¹⁰ per base pair per generation. Humans: 1.2 × 10⁻⁸ per nucleotide per generation.
 
-<!-- → [CHART: log-scale bar chart of mutation rates across organisms — x-axis: organism (RNA viruses, HIV, bacteria, Drosophila, humans); y-axis: mutation rate per base pair per replication or generation (log scale from 10⁻¹¹ to 10⁻⁴). Bars sorted from lowest to highest rate. A bracket annotation on the human bar should indicate the ~70 de novo SNVs per child that result from the per-nucleotide rate × genome size × 2 copies. Student should see the four-order-of-magnitude range across life and recognize that RNA viruses are the outliers at both ends of the biological logic (fastest per site despite large populations).] -->
+![Log-scale bar chart of mutation rates across organisms](images/08-mutation-dna-damage-cancer-fig-02.png)
+*Figure 8.2 — Log-scale bar chart of mutation rates across organisms*
 
 The cross-organism range spans four orders of magnitude. Michael Lynch's drift-barrier hypothesis explains the pattern: natural selection should push mutation rates down, because most mutations are deleterious and any allele improving replication fidelity should be favored. But selection on mutation rate is second-order — it depends on the fitness consequences of future mutations the allele would prevent. In small effective populations, drift overwhelms second-order selection, and mutation rates cannot fall further. Large-population organisms (bacteria, RNA viruses) should have the lowest rates — but RNA viruses are an exception, because high mutation rate is itself selected to generate immune-escape variants. Vertebrates, with small effective population sizes, have higher per-base rates.
 
@@ -131,7 +138,8 @@ The arithmetic falls out directly. Define:
 
 Knudson made this prediction in 1971 with a slide rule and a small clinical dataset. The *RB1* gene was cloned in 1986; whole-genome sequencing of retinoblastomas confirmed every detail decades later. The lesson generalizes immediately: any loss-of-function tumor suppressor follows two-hit kinetics; any gain-of-function oncogene follows one-hit kinetics. This asymmetry is not convention — it is Mendel's dominance logic applied to single cells.
 
-<!-- → [INFOGRAPHIC: two-panel Knudson diagram — left panel: hereditary retinoblastoma (one hit pre-installed in germline, second hit occurs somatically in many retinoblasts; arrows show both eyes affected, early onset); right panel: sporadic retinoblastoma (both hits must occur somatically in same lineage; probability product (μ×D)² is tiny; one eye affected, later onset). Each panel should show a schematic retina with colored cells indicating which cells have lost one vs. two RB1 alleles. Student should see why the product-of-probabilities arithmetic forces the bilateral/unilateral and early/late-onset pattern.] -->
+![Knudson diagram ](images/08-mutation-dna-damage-cancer-fig-03.png)
+*Figure 8.3 — Knudson diagram *
 
 ---
 
@@ -169,7 +177,8 @@ The timeline is approximately 10–30 years from initial APC loss to clinical ca
 
 The pan-cancer generalization: the typical adult solid tumor carries 2 to 8 driver mutations embedded among hundreds to thousands of passengers. Most of the mutational burden is noise. A handful of driver hits, accumulated sequentially under selection, is the signal. The process is iterative, stepwise, evolutionary.
 
-<!-- → [INFOGRAPHIC: Fearon-Vogelstein colorectal cancer progression timeline — a horizontal arrow spanning 10–30 years, with five labeled steps: (1) normal epithelium → (2) small adenoma (APC loss, crypt hyperproliferation) → (3) large adenoma (KRAS activation) → (4) late adenoma/dysplasia (SMAD4 loss) → (5) invasive carcinoma (TP53 loss) → (6) metastasis (additional hits). Each step should show the histological stage name, the key driver gene hit, and the protein pathway affected (Wnt, MAPK, TGF-β, DNA damage checkpoint). A secondary timeline below should indicate the colonoscopy screening window (adenoma detectable and removable at steps 2–4, before invasion at step 5). Student should see why the long latency makes screening effective.] -->
+![Fearon-Vogelstein colorectal cancer progression timeline ](images/08-mutation-dna-damage-cancer-fig-04.png)
+*Figure 8.4 — Fearon-Vogelstein colorectal cancer progression timeline *
 
 ---
 
@@ -195,7 +204,8 @@ Key signatures:
 
 **SBS3** — broad genome-wide pattern. Cause: homologous recombination deficiency (BRCA1/BRCA2 loss). Predicts PARP-inhibitor response.
 
-<!-- → [IMAGE: COSMIC-style mutational signature spectrum for SBS4 (tobacco) and SBS7a (UV) side by side — each spectrum shows 96 trinucleotide-context mutation categories (x-axis) with bar height indicating relative contribution (y-axis); SBS4 should show dominant C>A bars concentrated in NCC contexts; SBS7a should show dominant C>T bars concentrated at dipyrimidine contexts. Labels should indicate which bars correspond to which exposures. Student should see that the two spectra are visually distinct and that reading a tumor's spectrum against these references allows exposure inference.] -->
+![COSMIC-style mutational signature spectrum for SBS4 (tobacco) and](images/08-mutation-dna-damage-cancer-fig-05.png)
+*Figure 8.5 — COSMIC-style mutational signature spectrum for SBS4 (tobacco) and*
 
 A clinical example. A 62-year-old former smoker presents with a lung adenocarcinoma. Sequencing returns ~22,000 total point mutations — very high. About 60% are SBS4 (tobacco); 15% are SBS1 (clock); 10% are SBS2/SBS13 (APOBEC). The driver mutations include KRAS G12C, TP53 R175H, and STK11 truncation. Two things this profile teaches.
 
@@ -270,3 +280,53 @@ Mutation is neither good nor bad. Mutation is change. What it does depends entir
 ---
 
 *The next chapter crosses the bridge. Darwin's mechanism of natural selection — the conditions that make evolution possible, the evidence that it has occurred, the modern synthesis that connected Darwin to Mendel through population genetics. Mutation is the input. Every variant that selection has ever acted on arrived by the same chemistry described in this chapter. You have just been inside the mechanism that feeds the whole of evolutionary biology.*
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 8.1 — Ames test workflow 
+
+Create a standalone D3 v7 HTML file for Figure Ames test workflow . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Ames test workflow — left panel shows plates for TA98 (frameshift tester strain) and TA100 (base-substitution tester strain) without test chemical (background revertant colonies only); center panel shows the same plates with test chemical added (elevated colony counts on one or both); right panel shows S9 fraction addition for pre-carcinogen activation. Student should see how running the chemical on both strains simultaneously identifies not just mutagenicity but mutation type, and how the S9 liver fraction extends the assay to metabolically activated carcinogens.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-mutation-dna-damage-cancer-fig-01.html`
+
+---
+
+### Figure 8.2 — Log-scale bar chart of mutation rates across organisms
+
+Create a standalone D3 v7 HTML file for Figure Log-scale bar chart of mutation rates across organisms. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: log-scale bar chart of mutation rates across organisms — x-axis: organism (RNA viruses, HIV, bacteria, Drosophila, humans); y-axis: mutation rate per base pair per replication or generation (log scale from 10⁻¹¹ to 10⁻⁴). Bars sorted from lowest to highest rate. A bracket annotation on the human bar should indicate the ~70 de novo SNVs per child that result from the per-nucleotide rate × genome size × 2 copies. Student should see the four-order-of-magnitude range across life and recognize that RNA viruses are the outliers at both ends of the biological logic (fastest per site despite large populations).. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md col
+
+> Reference implementation: `d3/08-mutation-dna-damage-cancer-fig-02.html`
+
+---
+
+### Figure 8.3 — Knudson diagram 
+
+Create a standalone D3 v7 HTML file for Figure Knudson diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: two-panel Knudson diagram — left panel: hereditary retinoblastoma (one hit pre-installed in germline, second hit occurs somatically in many retinoblasts; arrows show both eyes affected, early onset); right panel: sporadic retinoblastoma (both hits must occur somatically in same lineage; probability product (μ×D)² is tiny; one eye affected, later onset). Each panel should show a schematic retina with colored cells indicating which cells have lost one vs. two RB1 alleles. Student should see why the product-of-probabilities arithmetic forces the bilateral/unilateral and early/late-onset pattern.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font spl
+
+> Reference implementation: `d3/08-mutation-dna-damage-cancer-fig-03.html`
+
+---
+
+### Figure 8.4 — Fearon-Vogelstein colorectal cancer progression timeline 
+
+Create a standalone D3 v7 HTML file for Figure Fearon-Vogelstein colorectal cancer progression timeline . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Fearon-Vogelstein colorectal cancer progression timeline — a horizontal arrow spanning 10–30 years, with five labeled steps: (1) normal epithelium → (2) small adenoma (APC loss, crypt hyperproliferation) → (3) large adenoma (KRAS activation) → (4) late adenoma/dysplasia (SMAD4 loss) → (5) invasive carcinoma (TP53 loss) → (6) metastasis (additional hits). Each step should show the histological stage name, the key driver gene hit, and the protein pathway affected (Wnt, MAPK, TGF-β, DNA damage checkpoint). A secondary timeline below should indicate the colonoscopy screening window (adenoma detectable and removable at steps 2–4, before invasion at step 5). Student should see why the long latency makes screening effective.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a z
+
+> Reference implementation: `d3/08-mutation-dna-damage-cancer-fig-04.html`
+
+---
+
+### Figure 8.5 — COSMIC-style mutational signature spectrum for SBS4 (tobacco) and
+
+Create a standalone D3 v7 HTML file for Figure COSMIC-style mutational signature spectrum for SBS4 (tobacco) and. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: COSMIC-style mutational signature spectrum for SBS4 (tobacco) and SBS7a (UV) side by side — each spectrum shows 96 trinucleotide-context mutation categories (x-axis) with bar height indicating relative contribution (y-axis); SBS4 should show dominant C>A bars concentrated in NCC contexts; SBS7a should show dominant C>T bars concentrated at dipyrimidine contexts. Labels should indicate which bars correspond to which exposures. Student should see that the two spectra are visually distinct and that reading a tumor's spectrum against these references allows exposure inference.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the
+
+> Reference implementation: `d3/08-mutation-dna-damage-cancer-fig-05.html`

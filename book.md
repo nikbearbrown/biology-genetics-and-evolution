@@ -12,7 +12,7 @@
 
 # Biology Plus One Genetics and Evolution
 
-**Author:** Nik Bear Brown
+**Author:** Humanitarians AI
 
 ---
 

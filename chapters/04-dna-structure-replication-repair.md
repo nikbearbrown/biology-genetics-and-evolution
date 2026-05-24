@@ -39,13 +39,15 @@ Let me unpack the structure, because the geometry returns at every repair step.
 
 A nucleotide has three parts: a phosphate group, a five-carbon sugar (deoxyribose in DNA), and a nitrogenous base. **Purines** (adenine and guanine) are two-ring molecules. **Pyrimidines** (thymine and cytosine) are one-ring molecules. Nucleotides link to each other via phosphodiester bonds between the 3'-OH of one sugar and the 5'-phosphate of the next, creating a directional chain with a 5' end and a 3' end. We read sequences 5'→3' because directionality is built into the chemistry.
 
-<!-- → [IMAGE: A single nucleotide showing the three components (phosphate, deoxyribose sugar, nitrogenous base) with the 5' and 3' positions labeled on the sugar — then a short four-nucleotide chain showing the 3'→5' phosphodiester linkages and the resulting 5' end (free phosphate) and 3' end (free hydroxyl)] -->
+![A single nucleotide showing the three components (phosphate,](images/04-dna-structure-replication-repair-fig-01.png)
+*Figure 4.1 — A single nucleotide showing the three components (phosphate,*
 
 Two single strands wind around each other in specific orientation: antiparallel, meaning one strand's 5'→3' direction points up the helix and the other points down. This is not optional — the hydrogen-bond geometry of A-T and G-C base pairs only works when the strands are antiparallel. Parallel strands cannot pair correctly. Antiparallelism is the single structural fact that forces every awkward feature of DNA replication. Keep it in mind.
 
 The base-pairing rules are physically enforced by hydrogen-bond geometry. **Adenine pairs with thymine via two hydrogen bonds.** **Guanine pairs with cytosine via three.** A purine never pairs with a purine — too wide for the helix to maintain its diameter. A pyrimidine never pairs with a pyrimidine — too narrow. The specific donor-acceptor patterns mean A cannot pair with C (wrong geometry) and G cannot pair with T (wrong geometry). Four bases, two pairing rules, both enforced by physics.
 
-<!-- → [IMAGE: Side-by-side diagrams of A-T and G-C base pairs — each showing the hydrogen bonds as dashed lines with donor/acceptor labels, the bond counts (2 for A-T, 3 for G-C), and the approximately equal width of the two pairs (~10.85 Å between sugar attachment points) — annotated to show why a purine-purine pair would be too wide and a pyrimidine-pyrimidine pair too narrow] -->
+![Diagrams of A-T and G-C base pairs ](images/04-dna-structure-replication-repair-fig-02.png)
+*Figure 4.2 — Diagrams of A-T and G-C base pairs *
 
 Three structural numbers matter for everything that follows. **~2 nm diameter** — uniform regardless of sequence, because every base pair is one purine plus one pyrimidine. **~10 base pairs per turn, ~3.4 nm per turn** — the bases stack on each other like coins, with the stacking interaction providing most of the helix's thermodynamic stability. **Major and minor grooves** — because the two backbones are not diametrically opposite, the spaces between them come in two sizes; proteins read DNA sequence by inserting side chains into the major groove, where A-T and G-C are chemically distinguishable without melting the helix open.
 
@@ -75,7 +77,8 @@ Here is what each model predicts.
 
 **Dispersive:** After one generation — one band at intermediate density, *same as semiconservative*. But after two generations — the band gradually drifts lighter without ever splitting into two distinct bands (the parental material keeps getting diluted into new synthesis, never fully separating).
 
-<!-- → [CHART: Three-panel diagram showing the density-gradient band patterns predicted by conservative, semiconservative, and dispersive models at generation 0, 1, and 2 — each panel shows a tube with band positions; the conservative panel shows two bands at 0 and 1; the semiconservative panel shows one intermediate band at 1 then two bands (intermediate + light) at 2; the dispersive panel shows one band gradually shifting lighter at 2 without splitting — annotated to show which observations rule out which models] -->
+![Diagram showing the density-gradient band patterns predicted by](images/04-dna-structure-replication-repair-fig-03.png)
+*Figure 4.3 — Diagram showing the density-gradient band patterns predicted by*
 
 What Meselson and Stahl actually saw, after one generation: one band, exactly at intermediate density. Conservative ruled out. After two generations: two bands, one at intermediate density and one at fully light density, in approximately equal amounts. Dispersive ruled out. Semiconservative confirmed.
 
@@ -103,7 +106,8 @@ The players, in the order they act:
 
 **RNase H and FEN1** (or in bacteria, **DNA polymerase I**) remove the RNA primers once synthesis has proceeded past them. **DNA polymerase** fills the resulting gap. **DNA ligase** seals the final nick — without it, the new strand would be fragments held together only by base pairing to the parental strand, not covalently connected.
 
-<!-- → [IMAGE: Diagram of a moving replication fork — the parental duplex enters from the right, helicase at the apex, SSBs coating the single strands; on the upper template (leading strand), one RNA primer at the start and continuous synthesis extending leftward with the fork; on the lower template (lagging strand), three successive RNA primers placed at intervals, with Okazaki fragments growing rightward (away from the fork) between them, RNase H removing the primers of older fragments, DNA polymerase filling gaps, ligase sealing; all players labeled] -->
+![Diagram of a moving replication fork ](images/04-dna-structure-replication-repair-fig-04.png)
+*Figure 4.4 — Diagram of a moving replication fork *
 
 On the lagging strand, the repeated primer-extend-stop-restart cycle produces what **Reiji Okazaki** and his colleagues showed in 1968: short, discontinuous pieces of new DNA, roughly 1,000–2,000 nucleotides in *E. coli* and 100–200 in eukaryotes, before they are joined into a continuous strand. These are **Okazaki fragments**.
 
@@ -177,7 +181,13 @@ Larger lesions — ones that distort the helix — are handled by a pathway that
 
 The key NER proteins are named after the disease they cause when lost: **XPA, XPB, XPC, XPD, XPE, XPF, XPG** — all for **xeroderma pigmentosum**. The boy in Chicago who has to wear UV-blocking gloves and a face visor to walk three blocks to the clinic — the one from the opening of this chapter, who has already had two skin carcinomas removed at age four — has a loss-of-function mutation in one of these genes. Every UV photon that reaches his skin drives the thymine dimers his cells cannot repair. The dimers persist. The next time the cell divides, errors accumulate opposite the damage, mutations accumulate in tumor-suppressor genes, and skin cancers appear. Same sun. Same DNA. Different repair status. Vastly different outcome.
 
-<!-- → [TABLE: Four repair pathways in one reference table — columns: pathway name, type of damage recognized, key recognition protein(s), excision size, disease when pathway is lost — rows: MMR (mismatched bases, MutS/MSH2, ~100–2000 nt, Lynch syndrome), BER (single modified bases, DNA glycosylases, 1 nt, MUTYH-associated polyposis), NER (bulky helix-distorting lesions, XPC, ~25–30 nt, xeroderma pigmentosum), HR (double-strand breaks S/G2, RAD51/BRCA1/BRCA2, variable, HBOC syndrome), NHEJ (double-strand breaks G1, Ku70/80, variable, chromosomal instability)] -->
+| pathway name | type of damage recognized | key recognition protein(s) | excision size | disease when pathway is lost — |
+| --- | --- | --- | --- | --- |
+| MMR (mismatched bases, MutS | MSH2, ~100–2000 nt, Lynch syndrome | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| BER (single modified bases, DNA glycosylases, 1 nt, MUTYH-associated polyposis | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| NER (bulky helix-distorting lesions, XPC, ~25–30 nt, xeroderma pigmentosum | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| HR (double-strand breaks S | G2, RAD51 | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| NHEJ (double-strand breaks G1, Ku70 | 80, variable, chromosomal instability | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 ### Double-strand break repair
 
@@ -197,7 +207,8 @@ Why the cancers cluster in breast and ovarian tissue specifically, rather than a
 
 This is the mechanism of **olaparib** and the other PARP inhibitors approved for BRCA-mutated cancers. The drug does not directly kill BRCA-deficient cells. It blocks a repair pathway (BER, by trapping PARP1 on damaged DNA), and that block forces cells to use the pathway they cannot use (HR, missing because BRCA was lost). Tumor cells die from a repair-pathway dependency the surrounding normal cells do not share — the normal cells retain one good BRCA allele and can do HR; the tumor cells lost the second copy somatically and cannot. **Synthetic lethality** turns the tumor's defect into its vulnerability. This is one of the cleanest targeted-therapy mechanisms in oncology, and it traces directly to the molecular logic of DNA repair we have spent this chapter building.
 
-<!-- → [INFOGRAPHIC: Synthetic lethality diagram — two-by-two grid with PARP1 status on one axis (functional / inhibited) and BRCA1/2 status on the other (functional / deficient); three cells of the grid labeled "viable" (PARP functional + BRCA functional; PARP inhibited + BRCA functional; PARP functional + BRCA deficient) and one cell labeled "lethal" (PARP inhibited + BRCA deficient); arrows labeled with the repair-pathway logic for each cell — caption: "Synthetic lethality: the tumor's defect becomes its vulnerability"] -->
+![Synthetic lethality: the tumor's defect becomes its vulnerability](images/04-dna-structure-replication-repair-fig-05.png)
+*Figure 4.5 — Synthetic lethality diagram *
 
 ---
 
@@ -356,3 +367,53 @@ the circumstances of the Nobel Prize attribution.
 - Ask it to compare what Franklin's lab notebooks and published papers said she had concluded about DNA structure versus what Watson and Crick claimed they derived independently.
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 4.1 — A single nucleotide showing the three components (phosphate,
+
+Create a standalone D3 v7 HTML file for Figure A single nucleotide showing the three components (phosphate,. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: A single nucleotide showing the three components (phosphate, deoxyribose sugar, nitrogenous base) with the 5' and 3' positions labeled on the sugar — then a short four-nucleotide chain showing the 3'→5' phosphodiester linkages and the resulting 5' end (free phosphate) and 3' end (free hydroxyl). Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-dna-structure-replication-repair-fig-01.html`
+
+---
+
+### Figure 4.2 — Diagrams of A-T and G-C base pairs 
+
+Create a standalone D3 v7 HTML file for Figure Diagrams of A-T and G-C base pairs . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Side-by-side diagrams of A-T and G-C base pairs — each showing the hydrogen bonds as dashed lines with donor/acceptor labels, the bond counts (2 for A-T, 3 for G-C), and the approximately equal width of the two pairs (~10.85 Å between sugar attachment points) — annotated to show why a purine-purine pair would be too wide and a pyrimidine-pyrimidine pair too narrow. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-dna-structure-replication-repair-fig-02.html`
+
+---
+
+### Figure 4.3 — Diagram showing the density-gradient band patterns predicted by
+
+Create a standalone D3 v7 HTML file for Figure Diagram showing the density-gradient band patterns predicted by. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Three-panel diagram showing the density-gradient band patterns predicted by conservative, semiconservative, and dispersive models at generation 0, 1, and 2 — each panel shows a tube with band positions; the conservative panel shows two bands at 0 and 1; the semiconservative panel shows one intermediate band at 1 then two bands (intermediate + light) at 2; the dispersive panel shows one band gradually shifting lighter at 2 without splitting — annotated to show which observations rule out which models. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-dna-structure-replication-repair-fig-03.html`
+
+---
+
+### Figure 4.4 — Diagram of a moving replication fork 
+
+Create a standalone D3 v7 HTML file for Figure Diagram of a moving replication fork . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Diagram of a moving replication fork — the parental duplex enters from the right, helicase at the apex, SSBs coating the single strands; on the upper template (leading strand), one RNA primer at the start and continuous synthesis extending leftward with the fork; on the lower template (lagging strand), three successive RNA primers placed at intervals, with Okazaki fragments growing rightward (away from the fork) between them, RNase H removing the primers of older fragments, DNA polymerase filling gaps, ligase sealing; all players labeled. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-dna-structure-replication-repair-fig-04.html`
+
+---
+
+### Figure 4.5 — Synthetic lethality diagram 
+
+Create a standalone D3 v7 HTML file for Figure Synthetic lethality diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Synthetic lethality diagram — two-by-two grid with PARP1 status on one axis (functional / inhibited) and BRCA1/2 status on the other (functional / deficient); three cells of the grid labeled "viable" (PARP functional + BRCA functional; PARP inhibited + BRCA functional; PARP functional + BRCA deficient) and one cell labeled "lethal" (PARP inhibited + BRCA deficient); arrows labeled with the repair-pathway logic for each cell — caption: "Synthetic lethality: the tumor's defect becomes its vulnerability". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-dna-structure-replication-repair-fig-05.html`

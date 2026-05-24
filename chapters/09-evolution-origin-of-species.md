@@ -27,7 +27,8 @@ The first ingredient needs the most unpacking, because it carries a hidden quali
 
 **Heritability** — the symbol is h², and you met it in Chapter 3 — is the fraction of phenotypic variance in a population that is additive-genetic. It runs from 0 (all variation is environmental, nothing is transmitted) to 1 (all variation is genetic, the trait is copied exactly). Beak depth in Daphne finches at h² ≈ 0.7 is high. It tells us that most of the bird-to-bird variation in beak depth traces to their genomes, not to their upbringing.
 
-<!-- → [DIAGRAM: parent-offspring regression plot for beak depth in Daphne Major finches — x-axis: mid-parent beak depth (mm), y-axis: offspring beak depth (mm); slope of the regression line ≈ 0.7, labeled as the narrow-sense heritability; student should see heritability as a measurable slope, not an abstract fraction, and understand that h²=1 would mean offspring exactly match parents while h²=0 would mean the regression is flat] -->
+![Parent-offspring regression plot for beak depth in Daphne](images/09-evolution-origin-of-species-fig-01.png)
+*Figure 9.1 — Parent-offspring regression plot for beak depth in Daphne*
 
 This gives us a quantitative prediction. The **breeder's equation** is:
 
@@ -39,7 +40,8 @@ Apply this to Daphne Major, 1977. Pre-drought mean: 9.4 mm. Survivor mean: 10.0 
 
 The observed response was about 0.3 mm — close to, but smaller than, the predicted 0.42 mm. Why the discrepancy? Several legitimate reasons: heritability is somewhat overestimated when parent-offspring correlations are inflated by shared environments; selection acts simultaneously on beak depth, beak length, beak width, and body size, and the univariate equation doesn't capture this multivariate selection; the small 1978 cohort has wide confidence intervals. The Grants spent the next two decades sorting through these explanations. The lesson is not that selection failed to match the equation. The lesson is that the equation put the prediction in the right neighborhood, the discrepancy is modest and mechanistically explicable, and the long-term record — beak depth oscillating up and down with drought and rain years, decade after decade — is exactly what you get from running the breeder's equation forward through fluctuating selection pressures.
 
-<!-- → [CHART: beak depth time series on Daphne Major — x-axis: year (1973–2012), y-axis: mean beak depth (mm); line oscillates up (drought years) and down (wet years), with 1977 drought spike labeled; student should see evolution as a dynamic, reversible oscillation driven by fluctuating selection, not a one-way ratchet toward larger beaks] -->
+![Beak depth time series on Daphne Major ](images/09-evolution-origin-of-species-fig-02.png)
+*Figure 9.2 — Beak depth time series on Daphne Major *
 
 The math works. The math is the same math whether the population is finches or bacteria or wheat. Antibiotic resistance, herbicide resistance, drought tolerance in crops, fisheries-induced evolution toward smaller body sizes under harvest pressure — all predictable from variants of this equation. This is what makes evolution a science rather than a story.
 
@@ -71,7 +73,8 @@ Natural selection on a continuous trait produces one of three effects on the phe
 
 **Disruptive selection** favors both extremes against the intermediate. The histogram becomes bimodal. African seedcracker finches (*Pyrenestes ostrinus*) show two sympatric beak-size morphs feeding on seeds of different hardness; intermediate beak sizes crack neither seed efficiently, and selection maintains the bimodal distribution within a single freely interbreeding population. Disruptive selection is the rarest of the three and the most interesting for speciation: if it couples with assortative mating — large-beaked birds preferring large-beaked mates, small-beaked preferring small-beaked — the population can split.
 
-<!-- → [INFOGRAPHIC: three-panel diagram of selection modes — each panel shows a before distribution (gray) and after distribution (outline) on the same phenotype axis; Panel 1 (directional): after distribution shifted right, mean moved; Panel 2 (stabilizing): after distribution narrower, same mean; Panel 3 (disruptive): after distribution bimodal; fitness function overlaid as a curve showing which phenotypes are favored in each case; student should be able to classify any before-after pair from the distributional change alone] -->
+![Diagram of selection modes ](images/09-evolution-origin-of-species-fig-03.png)
+*Figure 9.3 — Diagram of selection modes *
 
 ---
 
@@ -87,7 +90,8 @@ The gaps in the fossil record are real. Most organisms don't fossilize. Soft-bod
 
 **Comparative anatomy.** Look at the forelimbs of a human, a bat, a whale, a horse, and a bird. The functions couldn't be more different: arm, wing, flipper, foreleg, wing. Now look inside. One proximal bone (humerus), two distal bones (radius and ulna), a cluster of wrist bones, palm bones, digit bones — the same five sets, in the same relative positions, in every one of them. This is **homology**: structures derived from the same ancestral form, modified for different functions. Homologous structures are not explained by independent creation. A designer optimizing each organism for its function would have no reason to implement a flipper as a modified hand. An ancestor that happened to have this hand, with each descendant lineage modifying it differently, leaves exactly this pattern.
 
-<!-- → [IMAGE: forelimb homology diagram — human arm, bat wing, whale flipper, horse foreleg, and bird wing shown side by side with bones color-coded identically (humerus in one color, radius/ulna in another, carpals, metacarpals, phalanges in successive colors); student should see the same five-part plan in radically different functional forms, making the common-ancestry argument visual rather than verbal] -->
+![Forelimb homology diagram ](images/09-evolution-origin-of-species-fig-04.png)
+*Figure 9.4 — Forelimb homology diagram *
 
 The critical distinction is between homology and **analogy**: similar structures that look alike and do similar things but have different underlying plans because they evolved independently. The bird wing and the insect wing are both wings that produce lift; internally they could not be more different — one is bone, muscle, and feather; the other is thorax wall outgrowth supported by chitinous tubes. Convergent evolution produces the same outer form by different internal means. The same selection pressure repeatedly produces similar solutions in distantly related lineages — wings have evolved at least four independent times, eyes at least 40 times, echolocation at least twice. Whenever you see similar features in two lineages, the first question is always: homologous (inherited from a common ancestor) or analogous (independently evolved)? The phylogeny, the internal anatomy, and the molecules each give a check on the others.
 
@@ -95,13 +99,22 @@ The critical distinction is between homology and **analogy**: similar structures
 
 **Biogeography.** Why are marsupials almost exclusively in Australia? Because Australia broke from Gondwana about 50 million years ago, before placental mammals crossed into it, and the marsupials had the continent to themselves. The pattern is that closely related species are geographically close, not just functionally similar. Islands carry impoverished but distinctive faunas related to the nearest mainland. The Wallace Line — running between Bali and Lombok in Indonesia — marks a deep ocean trench that was never bridged even at lowest Pleistocene sea levels, and the faunas on each side reflect their respective continental ancestries. Biogeography records the geography of the planet that produced life's diversity.
 
-<!-- → [IMAGE: map of the Wallace Line — Southeast Asian archipelago showing the line running between Bali/Lombok and between Borneo/Sulawesi; Asian fauna icons (tiger, orangutan, rhinoceros) on the left; Australasian fauna icons (kangaroo, cockatoo, bird of paradise) on the right; deep ocean trench labeled; student should see the geographic boundary as the biological boundary and understand why no land bridge means no fauna exchange] -->
+![Map of the Wallace Line ](images/09-evolution-origin-of-species-fig-05.png)
+*Figure 9.5 — Map of the Wallace Line *
 
 **Embryology.** Vertebrate embryos in their early stages look astonishingly similar across fish, frog, chicken, mouse, and human. Each has segmented somites, a notochord, and a set of **pharyngeal arches** in the throat. In fish these develop into gills; in tetrapods they develop into jaw structures, the malleus and incus bones of the mammalian inner ear, and the larynx. The arches are present in every vertebrate embryo — including organisms that will never use them as gills — because they were inherited from the fish ancestor and the developmental program built around them is so deeply embedded that descendant lineages have rebuilt their structures around it rather than deleting it.
 
 **Molecular evidence.** Every cell on Earth uses essentially the same genetic code — 64 codons mapping to the same 20 amino acids in bacteria, archaea, plants, fungi, and animals. A single shared ancestor with this code, with the code inherited ever since, explains the universality. Beyond the code, the sequences of homologous genes track phylogeny quantitatively. Human cytochrome *c* differs from chimpanzee cytochrome *c* by 0 amino acids out of 104, from rhesus monkey by 1, from dog by 11, from tuna by 21, from bread mold by 41. The amount of divergence scales with the time since common ancestry — the **molecular clock** — exactly as descent-with-modification predicts. Particularly striking: humans and chimpanzees share thousands of endogenous retroviral integrations at the same chromosomal positions. A retrovirus integrating into a germ-line cell is inherited by all that cell's descendants. The same integration at the same genomic position in two species must have happened in a common ancestor — the odds of independent integration at identical positions are astronomically small.
 
-<!-- → [TABLE: cytochrome c amino-acid divergence from humans — rows: chimpanzee (0), rhesus monkey (1), dog (11), chicken (13), tuna (21), bread mold (41); student should see the gradient and understand that it predicts an intermediate value for any organism whose phylogenetic position is known, making the molecular clock a testable quantitative claim rather than a narrative] -->
+| Item | Meaning |
+| --- | --- |
+| chimpanzee (0 | A concrete checkpoint for applying the chapter concept. |
+| rhesus monkey (1 | A concrete checkpoint for applying the chapter concept. |
+| dog (11 | A concrete checkpoint for applying the chapter concept. |
+| chicken (13 | A concrete checkpoint for applying the chapter concept. |
+| tuna (21 | A concrete checkpoint for applying the chapter concept. |
+| bread mold (41 | A concrete checkpoint for applying the chapter concept. |
+| student should see the gradient and understand that it predicts an intermediate value for any organism whose phylogenetic position is known, making the molecular clock a testable quantitative claim rather than a narrative | A concrete checkpoint for applying the chapter concept. |
 
 **Direct observation.** Darwin believed natural selection was generally too slow to observe in a human lifetime. He was wrong. The Grant finches we opened with: 40+ years of documented directional selection, oscillating with the drought-rain cycles, with a documented case of incipient hybrid speciation in the "Big Bird" lineage that arose from a single cross in 1981 and has been reproductively isolated from both parental species for several generations. Richard Lenski's *E. coli* Long-Term Evolution Experiment, running since February 24, 1988, has now crossed 80,000 generations; at around generation 33,000, one of the 12 populations evolved the ability to use citrate as a carbon source under aerobic conditions — something wild-type *E. coli* cannot do — through a sequence of potentiating and actualizing mutations that can be reconstructed by replaying from frozen ancestral stocks. Italian wall lizards introduced to a new Croatian island in 1971 had evolved cecal valves, larger heads with stronger bite force, and reduced territoriality by 2004 — approximately 30 generations, in a replicated natural experiment with a documented founder event and a known starting population. Antibiotic resistance and pesticide resistance round out the picture as evolution in real time with immediate practical stakes.
 
@@ -121,7 +134,9 @@ Reproductive isolation is not one mechanism. It is whatever mechanism happens to
 
 **Postzygotic barriers** act after fertilization. *Hybrid inviability*: the hybrid embryo fails to develop. *Hybrid sterility*: the hybrid is viable and often robust but cannot reproduce — the mule is the classic case, with 63 chromosomes (32 horse + 31 donkey) that cannot pair properly at meiosis. *Hybrid breakdown*: the F1 hybrid is fertile, but F2 or backcross generations show sharply reduced fitness.
 
-<!-- → [TABLE: reproductive isolating barriers — columns: barrier type, when it acts (pre/post-zygotic), mechanism, example; rows covering habitat, temporal, behavioral, mechanical, gametic, hybrid inviability, hybrid sterility, hybrid breakdown; student should be able to classify any described barrier by type and explain at which stage of the reproductive sequence it blocks gene flow] -->
+| barrier type | when it acts (pre | post-zygotic) | mechanism | example |
+| --- | --- | --- | --- | --- |
+| reproductive isolating barriers — | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | It makes the underlying reasoning visible instead of implied. | Use the chapter example as the concrete test case. |
 
 Barriers can reinforce each other. Where two recently diverged species make secondary contact and produce sterile hybrids, any prezygotic mechanism that prevents making hybrids in the first place is favored — because making hybrids wastes reproductive effort. **Reinforcement** sharpens existing barriers in contact zones over time, completing speciation that geography started.
 
@@ -139,7 +154,8 @@ Polyploidy is the duplication of an entire chromosome set. Normally, a sexually 
 
 Here is the speciation move. The tetraploid is reproductively isolated from its diploid parent population *immediately*. If a tetraploid mates with a diploid, the offspring is triploid and effectively sterile — three chromosomes cannot be partitioned evenly into two gametes at meiosis. If a tetraploid mates with another tetraploid, the offspring is tetraploid and fertile. Speciation — full reproductive isolation — has happened in a single generation, without geographic separation, through a single mistake at meiosis.
 
-<!-- → [DIAGRAM: polyploidy speciation mechanism — diploid parent (2n=8) on left; meiotic failure arrow producing unreduced gamete (n=8); two unreduced gametes fusing to produce tetraploid offspring (4n=16); two crossing arrows showing: tetraploid × diploid → triploid (sterile, dead end), tetraploid × tetraploid → tetraploid (fertile); student should see both the creation event and the immediate reproductive isolation from the parent species in one diagram] -->
+![Polyploidy speciation mechanism ](images/09-evolution-origin-of-species-fig-06.png)
+*Figure 9.6 — Polyploidy speciation mechanism *
 
 Roughly half of all flowering plant species are of polyploid origin. Wheat is hexaploid — six chromosome sets, derived from three ancestral grass genomes fused over successive polyploidization events. Cotton, tobacco, strawberry, banana — all polyploids. Animals tolerate polyploidy badly: extra sex chromosome doses are usually lethal, sex determination is disrupted, and gene dosage is critical in ways plants can absorb. So polyploid speciation is essentially absent in mammals and birds, common in plants. One mechanism, one generation, one new species.
 
@@ -261,3 +277,61 @@ What changes? What gets better? What gets worse?
 ---
 
 *By Nik Bear Brown*
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 9.1 — Parent-offspring regression plot for beak depth in Daphne
+
+Create a standalone D3 v7 HTML file for Figure Parent-offspring regression plot for beak depth in Daphne. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: parent-offspring regression plot for beak depth in Daphne Major finches — x-axis: mid-parent beak depth (mm), y-axis: offspring beak depth (mm); slope of the regression line ≈ 0.7, labeled as the narrow-sense heritability; student should see heritability as a measurable slope, not an abstract fraction, and understand that h²=1 would mean offspring exactly match parents while h²=0 would mean the regression is flat. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-evolution-origin-of-species-fig-01.html`
+
+---
+
+### Figure 9.2 — Beak depth time series on Daphne Major 
+
+Create a standalone D3 v7 HTML file for Figure Beak depth time series on Daphne Major . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: beak depth time series on Daphne Major — x-axis: year (1973–2012), y-axis: mean beak depth (mm); line oscillates up (drought years) and down (wet years), with 1977 drought spike labeled; student should see evolution as a dynamic, reversible oscillation driven by fluctuating selection, not a one-way ratchet toward larger beaks. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-evolution-origin-of-species-fig-02.html`
+
+---
+
+### Figure 9.3 — Diagram of selection modes 
+
+Create a standalone D3 v7 HTML file for Figure Diagram of selection modes . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: three-panel diagram of selection modes — each panel shows a before distribution (gray) and after distribution (outline) on the same phenotype axis; Panel 1 (directional): after distribution shifted right, mean moved; Panel 2 (stabilizing): after distribution narrower, same mean; Panel 3 (disruptive): after distribution bimodal; fitness function overlaid as a curve showing which phenotypes are favored in each case; student should be able to classify any before-after pair from the distributional change alone. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-evolution-origin-of-species-fig-03.html`
+
+---
+
+### Figure 9.4 — Forelimb homology diagram 
+
+Create a standalone D3 v7 HTML file for Figure Forelimb homology diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: forelimb homology diagram — human arm, bat wing, whale flipper, horse foreleg, and bird wing shown side by side with bones color-coded identically (humerus in one color, radius/ulna in another, carpals, metacarpals, phalanges in successive colors); student should see the same five-part plan in radically different functional forms, making the common-ancestry argument visual rather than verbal. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-evolution-origin-of-species-fig-04.html`
+
+---
+
+### Figure 9.5 — Map of the Wallace Line 
+
+Create a standalone D3 v7 HTML file for Figure Map of the Wallace Line . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: map of the Wallace Line — Southeast Asian archipelago showing the line running between Bali/Lombok and between Borneo/Sulawesi; Asian fauna icons (tiger, orangutan, rhinoceros) on the left; Australasian fauna icons (kangaroo, cockatoo, bird of paradise) on the right; deep ocean trench labeled; student should see the geographic boundary as the biological boundary and understand why no land bridge means no fauna exchange. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-evolution-origin-of-species-fig-05.html`
+
+---
+
+### Figure 9.6 — Polyploidy speciation mechanism 
+
+Create a standalone D3 v7 HTML file for Figure Polyploidy speciation mechanism . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: polyploidy speciation mechanism — diploid parent (2n=8) on left; meiotic failure arrow producing unreduced gamete (n=8); two unreduced gametes fusing to produce tetraploid offspring (4n=16); two crossing arrows showing: tetraploid × diploid → triploid (sterile, dead end), tetraploid × tetraploid → tetraploid (fertile); student should see both the creation event and the immediate reproductive isolation from the parent species in one diagram. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-evolution-origin-of-species-fig-06.html`

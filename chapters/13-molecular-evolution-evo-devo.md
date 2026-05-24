@@ -142,7 +142,8 @@ They had not. The hybridization signal was strong. The 60-amino-acid DNA-binding
 
 Hox genes are a specific class of homeobox-containing transcription factors that control anterior-posterior body axis identity in animals. Flies have eight Hox genes in two clusters. Humans have 39 Hox genes in four clusters — the product of two whole-genome duplications early in vertebrate evolution. The most striking property is **collinearity**: the order of the genes on the chromosome matches the order of their expression along the body. The 3′-most genes are expressed in the anterior (head); the 5′-most genes are expressed in the posterior (tail). This property holds from flies to humans.
 
-<!-- → [IMAGE: Collinearity diagram — a horizontal line representing the HoxA cluster on human chromosome 7, with genes labeled Hoxa1 through Hoxa13 from left (3') to right (5'); below it, a stylized vertebral body plan from cervical (C1) to sacral regions, with bracket annotations showing which Hox genes are expressed at each axial level; the 3'-to-5' gene order on the chromosome mirrors the anterior-to-posterior expression along the body axis; an equivalent Drosophila row above showing the same collinear property with the eight Drosophila Hox genes and a stylized fly body plan below] -->
+![Collinearity diagram ](images/13-molecular-evolution-evo-devo-fig-01.png)
+*Figure 13.1 — Collinearity diagram *
 
 Here is the question that organizes everything. *If the Hox protein is virtually unchanged between a fly and a vertebrate, how does it produce such different bodies?*
 
@@ -166,7 +167,8 @@ The mechanism that makes enhancers act modularly: each enhancer binds a distinct
 
 This is the structural feature that makes regulatory evolution possible without massive collateral damage. Without modular cis-regulation, every change to a gene's expression would either change the protein (usually breaking it) or change the transcription factor (usually breaking dozens of other genes). With modular cis-regulation, evolution can edit one expression domain at a time. The cost in pleiotropy is reduced by orders of magnitude.
 
-<!-- → [IMAGE: Modular enhancer diagram — a gene shown as a horizontal line with its coding exons (gray boxes) in the center; to the left and right of the coding region, four enhancer elements shown as colored segments on the DNA: "pelvic enhancer" (red, deleted in freshwater sticklebacks), "jaw enhancer" (blue, intact), "pituitary enhancer" (green, intact), "fin enhancer" (orange, intact); below each enhancer, a small tissue diagram showing where it drives expression; an X through the pelvic enhancer with the annotation "deleted in freshwater fish"; arrows from the intact enhancers to the tissues where Pitx1 expression continues unaffected] -->
+![Modular enhancer diagram ](images/13-molecular-evolution-evo-devo-fig-02.png)
+*Figure 13.2 — Modular enhancer diagram *
 
 This is why the King-Wilson conjecture from 1975 worked out. King and Wilson computed from protein-electrophoresis data that humans and chimpanzees share roughly 99% of their protein sequences, and proposed that the morphological differences between us must therefore lie primarily in regulatory sequences controlling when and where each shared protein is expressed. The proposal was speculative in 1975. Forty years of comparative genomics have largely vindicated it: most large morphological differences between closely related vertebrate species map to changes in cis-regulatory elements rather than to changes in the coding sequences of the genes those elements regulate. The strong-form claim that *all* morphological evolution is regulatory has been challenged by Hoekstra and Coyne (2007), who argue that protein-coding changes have been underestimated. The modern consensus is mixed — both kinds of change matter, and regulatory change probably dominates for tissue-specific morphological differences while protein-coding change dominates for biochemical and physiological differences.
 
@@ -449,3 +451,29 @@ the neutral theory changed between 1968 and today.
 - Ask it to compare the King-Wilson 1975 prediction to what the post-2000 genome era found — which parts of their argument held up, and which needed revision?
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 13.1 — Collinearity diagram 
+
+Create a standalone D3 v7 HTML file for Figure Collinearity diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Collinearity diagram — a horizontal line representing the HoxA cluster on human chromosome 7, with genes labeled Hoxa1 through Hoxa13 from left (3') to right (5'); below it, a stylized vertebral body plan from cervical (C1) to sacral regions, with bracket annotations showing which Hox genes are expressed at each axial level; the 3'-to-5' gene order on the chromosome mirrors the anterior-to-posterior expression along the body axis; an equivalent Drosophila row above showing the same collinear property with the eight Drosophila Hox genes and a stylized fly body plan below. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/13-molecular-evolution-evo-devo-fig-01.html`
+
+---
+
+### Figure 13.2 — Modular enhancer diagram 
+
+Create a standalone D3 v7 HTML file for Figure Modular enhancer diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Modular enhancer diagram — a gene shown as a horizontal line with its coding exons (gray boxes) in the center; to the left and right of the coding region, four enhancer elements shown as colored segments on the DNA: "pelvic enhancer" (red, deleted in freshwater sticklebacks), "jaw enhancer" (blue, intact), "pituitary enhancer" (green, intact), "fin enhancer" (orange, intact); below each enhancer, a small tissue diagram showing where it drives expression; an X through the pelvic enhancer with the annotation "deleted in freshwater fish"; arrows from the intact enhancers to the tissues where Pitx1 expression continues unaffected. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color var
+
+> Reference implementation: `d3/13-molecular-evolution-evo-devo-fig-02.html`

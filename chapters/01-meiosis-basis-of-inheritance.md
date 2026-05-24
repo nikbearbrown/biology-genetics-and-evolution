@@ -39,7 +39,8 @@ Here is the bookkeeping, worked out step by step:
 
 The two columns matter differently. The chromosome count is halved at meiosis I. The chromatid count per chromosome is halved at meiosis II. The two divisions split the bookkeeping in two — meiosis I is the **reductional division** (it reduces ploidy from 2n to n); meiosis II is the **equational division** (it preserves ploidy while separating the two identical chromatids of each chromosome).
 
-<!-- → [IMAGE: Side-by-side overview of meiosis I and meiosis II — left column shows one diploid cell (simplified to 2n = 4: two chromosome pairs) entering prophase I, metaphase I, and anaphase I to produce two haploid daughter cells each containing 2 chromosomes of 2 chromatids; right column shows each daughter entering metaphase II and anaphase II to produce four gametes each with 2 single-chromatid chromosomes — chromosome count and chromatid count annotated at each stage to match the bookkeeping table above; "REDUCTIONAL" labeled over meiosis I, "EQUATIONAL" labeled over meiosis II] -->
+![Overview of meiosis I and meiosis II ](images/01-meiosis-basis-of-inheritance-fig-01.png)
+*Figure 1.1 — Overview of meiosis I and meiosis II *
 
 For the inheritance argument, almost everything interesting happens at meiosis I.
 
@@ -71,7 +72,8 @@ Mendel's First Law, in cells. The 50:50 segregation he needed to explain his 3:1
 
 The Punnett square you built last chapter — its two row labels and two column labels being the gametes A and a from a heterozygous parent — is bookkeeping for the products of that one anaphase I event.
 
-<!-- → [IMAGE: Step-by-step diagram of meiosis I in a heterozygous Aa parent — five panels: (1) pre-meiosis with two homologs (one red/A, one blue/a); (2) after replication with four chromatids; (3) prophase I with bivalent formed; (4) metaphase I with spindle attached; (5) anaphase I with homologs separating to opposite poles — annotated at each step with the allele content of each chromosome] -->
+![Step-by-step diagram of meiosis I in a heterozygous](images/01-meiosis-basis-of-inheritance-fig-02.png)
+*Figure 1.2 — Step-by-step diagram of meiosis I in a heterozygous*
 
 ---
 
@@ -95,7 +97,8 @@ Each configuration occurs with probability 1/4. Averaging across many germ-line 
 
 The mechanism is the independent orientation of bivalents at metaphase I. Each chromosome pair makes an independent choice. The choices multiply — because they are independent events — and the four equally likely outcomes are the four gamete types in equal proportion. **Mendel's Second Law is the statement that bivalents orient independently at metaphase I.**
 
-<!-- → [IMAGE: Two bivalents at metaphase I showing all four possible orientation combinations — labeled (1) through (4) — with arrows showing which gametes result from anaphase I separation in each case, and a tally showing AB:Ab:aB:ab = 1:1:1:1 when all four are equally likely] -->
+![Two bivalents at metaphase I showing all four](images/01-meiosis-basis-of-inheritance-fig-03.png)
+*Figure 1.3 — Two bivalents at metaphase I showing all four*
 
 For n independently orienting bivalents — n heterozygous loci on n different chromosomes — the number of distinct gamete types is 2ⁿ. Each bivalent contributes a factor of 2, and the choices multiply. For humans, with 23 chromosome pairs:
 
@@ -105,7 +108,8 @@ For n independently orienting bivalents — n heterozygous loci on n different c
 
 About **8.4 million distinct gamete types** per human individual, from independent assortment alone, before crossing over is considered at all. This is not 23 × something. It is 2 × 2 × 2 × ... twenty-three times. The independence of each bivalent's orientation is the multiplicative engine.
 
-<!-- → [CHART: Exponential growth chart showing gamete diversity vs. number of heterozygous chromosome pairs — x-axis: 1 through 23 pairs; y-axis: number of distinct gamete types (log scale, from 2 to 10 million); the curve doubles at each step (2, 4, 8, 16...); annotated at n=1 (2 gamete types), n=10 (1,024), n=20 (1 million), n=23 (8.4 million) — caption: "Each new independently-assorting chromosome pair doubles the count; the result is multiplicative, not additive"] -->
+![Each new independently-assorting chromosome pair doubles the count; the result is multiplicative, not additive](images/01-meiosis-basis-of-inheritance-fig-04.png)
+*Figure 1.4 — Exponential growth chart showing gamete diversity vs*
 
 A note on Mendel's luck. He chose seven traits in pea plants, and by luck — or unconscious selection — all seven happened to assort independently. Peas have seven chromosome pairs. Each of Mendel's traits is controlled by a gene on a different chromosome, or far enough apart on the same chromosome to behave as if it were. If he had chosen two traits on the same chromosome and close together, he would have seen non-Mendelian inheritance, and his 1866 paper might have been a much more confusing document. The fact that his Second Law held for all twenty-one pairwise combinations of seven traits was not the rule of genetics — it was a coincidence that let him see the rule.
 
@@ -125,7 +129,8 @@ Consider two genes on the same chromosome. Call them A (alleles A, a) and B (all
 
 Run meiosis on this cell. At prophase I, one bivalent forms, containing the AB and ab homologs. If no crossover happens between the A locus and the B locus, the homologs separate at anaphase I exactly as they entered: the AB chromatids go to one daughter, the ab chromatids to the other. After meiosis II, the four gametes are two AB and two ab. Only the parental gamete types. No Ab, no aB. This is perfect linkage.
 
-<!-- → [IMAGE: Two-panel diagram comparing meiosis with no crossover (left) vs. one crossover between A and B loci (right) — left panel shows AB/ab bivalent separating to give only AB and ab gametes; right panel shows crossover event producing four chromatids (AB, Ab, aB, ab) and all four gamete types] -->
+![Diagram comparing meiosis with no crossover (left) vs](images/01-meiosis-basis-of-inheritance-fig-05.png)
+*Figure 1.5 — Diagram comparing meiosis with no crossover (left) vs*
 
 If a crossover does happen between the A and B loci, the picture changes. A crossover is a physical exchange between non-sister chromatids of the two homologs, occurring during prophase I. The net effect: one chromatid of the AB chromosome trades its B region for the ab chromosome's b region, producing a recombinant Ab chromatid; symmetrically, the ab chromosome produces a recombinant aB chromatid. The bivalent now contains: one AB, one Ab, one aB, one ab chromatid. All four gamete types appear, in equal proportions, from this one meiosis.
 
@@ -142,11 +147,16 @@ The insight Sturtevant had in 1913 is this: the recombination frequency r is a m
 
 Sturtevant defined the unit: **1 centimorgan (cM) = 1% recombination frequency**. He then mapped six X-linked genes in *Drosophila* from their pairwise recombination frequencies, producing the first genetic linkage map of any chromosome. The technique he invented — measuring recombination frequencies to infer chromosomal positions — was the only way to map genes for the next sixty years.
 
-<!-- → [IMAGE: Schematic of a three-gene linkage map — a horizontal line representing the chromosome with three genes (A, B, C) marked as points; double-headed arrows below showing A-B = 8 cM, B-C = 5 cM, A-C = 13 cM; a small inset table showing the three pairwise testcross recombination frequencies (8%, 5%, 13%) that were measured to produce this map; caption: "Sturtevant's method: measure r between every pair, find the linear order that makes the distances additive"] -->
+![Sturtevant's method: measure r between every pair, find the linear order that makes the distances additive](images/01-meiosis-basis-of-inheritance-fig-06.png)
+*Figure 1.6 — Schematic of a three-gene linkage map *
 
 The move that matters. The chromosomal theory turned an *exception* to Mendel's Second Law into a *measurement device*. The cases where the law fails are exactly the cases where you can measure something the law assumed away — the physical architecture of the chromosome, the linear order of genes, the distances between them. The deviation, made quantitative, gives you the first geometric picture of the genome.
 
-<!-- → [TABLE: Three cases of the same AaBb × aabb testcross — columns: chromosomal configuration, gamete proportions (AB : Ab : aB : ab), testcross offspring ratio, what this looks like in data — rows: (1) different chromosomes / 1/4 : 1/4 : 1/4 : 1/4 / 1:1:1:1 / Mendel's Second Law; (2) same chromosome, no crossing over / 1/2 : 0 : 0 : 1/2 / 1:1 (parentals only) / perfect linkage; (3) same chromosome, r = 0.20 / 0.40 : 0.10 : 0.10 : 0.40 / 4:1:1:4 / partial linkage, 20 cM between loci] -->
+| chromosomal configuration | gamete proportions (AB : Ab : aB : ab) | testcross offspring ratio | what this looks like in data — |
+| --- | --- | --- | --- |
+| 1) different chromosomes | 1 | 4 | 1 |
+| 2) same chromosome, no crossing over | 1 | 2 | 0 |
+| 3) same chromosome, r = 0.20 | 0.40 | 0.10 | 0.10 |
 
 ---
 
@@ -175,7 +185,8 @@ A carrier mother has genotype X^+/X^w — one wild-type X and one mutant X. In h
 
 The probabilities a genetic counselor gives to a couple in the consultation room — conditional on having a son, probability of disease is 1/2; conditional on having a daughter, probability of being a carrier is 1/2 — are the direct consequence of that anaphase I separation in the mother's meiosis.
 
-<!-- → [IMAGE: Pedigree diagram showing carrier mother (half-filled circle) × unaffected father (empty square), with four equally likely offspring: empty circle (non-carrier daughter), half-filled circle (carrier daughter), empty square (unaffected son), filled square (affected son) — each labeled with its X-chromosome genotype] -->
+![Pedigree diagram showing carrier mother (half-filled circle) ×](images/01-meiosis-basis-of-inheritance-fig-07.png)
+*Figure 1.7 — Pedigree diagram showing carrier mother (half-filled circle) ×*
 
 Two diagnostic features identify X-linked recessive inheritance in a pedigree.
 
@@ -191,7 +202,11 @@ Three real X-linked recessive disorders worth knowing:
 
 **Duchenne muscular dystrophy (DMD)** — mutations in *DMD* (Xp21), encoding dystrophin. The *DMD* gene is the largest known human gene, spanning about 2.4 megabases (over 1% of the X chromosome). Its large size makes it an unusually large mutational target, so about 30% of DMD cases arise from new (de novo) mutations rather than being inherited from a carrier mother.
 
-<!-- → [TABLE: Comparison of the three X-linked recessive disorders — columns: disorder, gene and chromosomal location, protein function, incidence in males, de novo fraction, clinical onset — rows: hemophilia A (F8, Xq28), red-green color blindness (OPN1LW/OPN1MW, Xq28), Duchenne muscular dystrophy (DMD, Xp21) — last row at the bottom: "inheritance pattern for all three: carrier mothers, affected sons, no father-to-son transmission" to anchor the shared chromosomal mechanism] -->
+| disorder | gene | chromosomal location | protein function | incidence in males |
+| --- | --- | --- | --- | --- |
+| hemophilia A (F8, Xq28 | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| red-green color blindness (OPN1LW | OPN1MW, Xq28 | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
+| Duchenne muscular dystrophy (DMD, Xp21) | last row at the bottom: "inheritance pattern for all three: carrier mothers, affected sons, no father-to-son transmission" to anchor the shared chromosomal mechanism | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. | A concrete checkpoint for applying the chapter concept. |
 
 ---
 
@@ -215,7 +230,8 @@ Now here is the thing about that number. Students very often try to *add* the th
 
 The consequence is the one that feels like philosophy but is arithmetic: two genetically identical full siblings (other than identical twins, who split from a single zygote) are not improbable — they are not possible in any practical sense. The statement "you have never existed before" is not poetry. It is the consequence of three independent coin-flip mechanisms multiplied through every meiosis and every fertilization in your ancestry.
 
-<!-- → [INFOGRAPHIC: Three-part diagram of the randomization mechanisms — panel 1 shows 23 bivalents orienting independently at metaphase I with 2²³ = 8.4M labeled; panel 2 shows a single chromosome with 3 crossover events marked, annotated "50–200 crossovers per meiosis"; panel 3 shows a sperm and egg meeting with "×" between the two 8.4M counts giving "~70 trillion"; arrows labeled "these multiply, not add"] -->
+![Three-part diagram of the randomization mechanisms ](images/01-meiosis-basis-of-inheritance-fig-08.png)
+*Figure 1.8 — Three-part diagram of the randomization mechanisms *
 
 ---
 
@@ -405,3 +421,77 @@ his career or ideas.
 - Ask it to compare Sutton's contribution to Boveri's independent work — what each saw, and why the combination of the two perspectives was more convincing than either alone.
 
 What changes? What gets better? What gets worse?
+
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 1.1 — Overview of meiosis I and meiosis II 
+
+Create a standalone D3 v7 HTML file for Figure Overview of meiosis I and meiosis II . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Side-by-side overview of meiosis I and meiosis II — left column shows one diploid cell (simplified to 2n = 4: two chromosome pairs) entering prophase I, metaphase I, and anaphase I to produce two haploid daughter cells each containing 2 chromosomes of 2 chromatids; right column shows each daughter entering metaphase II and anaphase II to produce four gametes each with 2 single-chromatid chromosomes — chromosome count and chromatid count annotated at each stage to match the bookkeeping table above; "REDUCTIONAL" labeled over meiosis I, "EQUATIONAL" labeled over meiosis II. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font spli
+
+> Reference implementation: `d3/01-meiosis-basis-of-inheritance-fig-01.html`
+
+---
+
+### Figure 1.2 — Step-by-step diagram of meiosis I in a heterozygous
+
+Create a standalone D3 v7 HTML file for Figure Step-by-step diagram of meiosis I in a heterozygous. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Step-by-step diagram of meiosis I in a heterozygous Aa parent — five panels: (1) pre-meiosis with two homologs (one red/A, one blue/a); (2) after replication with four chromatids; (3) prophase I with bivalent formed; (4) metaphase I with spindle attached; (5) anaphase I with homologs separating to opposite poles — annotated at each step with the allele content of each chromosome. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-meiosis-basis-of-inheritance-fig-02.html`
+
+---
+
+### Figure 1.3 — Two bivalents at metaphase I showing all four
+
+Create a standalone D3 v7 HTML file for Figure Two bivalents at metaphase I showing all four. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Two bivalents at metaphase I showing all four possible orientation combinations — labeled (1) through (4) — with arrows showing which gametes result from anaphase I separation in each case, and a tally showing AB:Ab:aB:ab = 1:1:1:1 when all four are equally likely. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-meiosis-basis-of-inheritance-fig-03.html`
+
+---
+
+### Figure 1.4 — Exponential growth chart showing gamete diversity vs
+
+Create a standalone D3 v7 HTML file for Figure Exponential growth chart showing gamete diversity vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Exponential growth chart showing gamete diversity vs. number of heterozygous chromosome pairs — x-axis: 1 through 23 pairs; y-axis: number of distinct gamete types (log scale, from 2 to 10 million); the curve doubles at each step (2, 4, 8, 16...); annotated at n=1 (2 gamete types), n=10 (1,024), n=20 (1 million), n=23 (8.4 million) — caption: "Each new independently-assorting chromosome pair doubles the count; the result is multiplicative, not additive". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-meiosis-basis-of-inheritance-fig-04.html`
+
+---
+
+### Figure 1.5 — Diagram comparing meiosis with no crossover (left) vs
+
+Create a standalone D3 v7 HTML file for Figure Diagram comparing meiosis with no crossover (left) vs. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Two-panel diagram comparing meiosis with no crossover (left) vs. one crossover between A and B loci (right) — left panel shows AB/ab bivalent separating to give only AB and ab gametes; right panel shows crossover event producing four chromatids (AB, Ab, aB, ab) and all four gamete types. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-meiosis-basis-of-inheritance-fig-05.html`
+
+---
+
+### Figure 1.6 — Schematic of a three-gene linkage map 
+
+Create a standalone D3 v7 HTML file for Figure Schematic of a three-gene linkage map . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Schematic of a three-gene linkage map — a horizontal line representing the chromosome with three genes (A, B, C) marked as points; double-headed arrows below showing A-B = 8 cM, B-C = 5 cM, A-C = 13 cM; a small inset table showing the three pairwise testcross recombination frequencies (8%, 5%, 13%) that were measured to produce this map; caption: "Sturtevant's method: measure r between every pair, find the linear order that makes the distances additive". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-meiosis-basis-of-inheritance-fig-06.html`
+
+---
+
+### Figure 1.7 — Pedigree diagram showing carrier mother (half-filled circle) ×
+
+Create a standalone D3 v7 HTML file for Figure Pedigree diagram showing carrier mother (half-filled circle) ×. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Pedigree diagram showing carrier mother (half-filled circle) × unaffected father (empty square), with four equally likely offspring: empty circle (non-carrier daughter), half-filled circle (carrier daughter), empty square (unaffected son), filled square (affected son) — each labeled with its X-chromosome genotype. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-meiosis-basis-of-inheritance-fig-07.html`
+
+---
+
+### Figure 1.8 — Three-part diagram of the randomization mechanisms 
+
+Create a standalone D3 v7 HTML file for Figure Three-part diagram of the randomization mechanisms . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Three-part diagram of the randomization mechanisms — panel 1 shows 23 bivalents orienting independently at metaphase I with 2²³ = 8.4M labeled; panel 2 shows a single chromosome with 3 crossover events marked, annotated "50–200 crossovers per meiosis"; panel 3 shows a sperm and egg meeting with "×" between the two 8.4M counts giving "~70 trillion"; arrows labeled "these multiply, not add". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-meiosis-basis-of-inheritance-fig-08.html`
