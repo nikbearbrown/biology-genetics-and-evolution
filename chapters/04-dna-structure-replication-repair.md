@@ -1,4 +1,11 @@
 # Chapter 4 — DNA Structure, Replication, and Repair
+
+## TL;DR
+
+- Why accuracy is not a property of the molecule.
+- The chapter moves through How we found out what genes are made of, The double helix — geometry enforces fidelity, Meselson and Stahl prove it, The replication fork — why the lagging strand is awkward, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Why accuracy is not a property of the molecule.*
 
 ---
@@ -346,8 +353,7 @@ reactivation as cancer-enabling events.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Rosalind Franklin** produced the X-ray diffraction data — Photograph 51 — that confirmed the helical structure of B-form DNA and provided the dimensional measurements Watson and Crick used to build their model. She did this work in 1952 at King's College London, without being credited in the papers that won the Nobel Prize.
 
 **Run this:**

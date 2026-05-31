@@ -1,4 +1,11 @@
 # Chapter 14 — Capstone: From Genes to Evolutionary Change
+
+## TL;DR
+
+- The same algorithm, three timescales, one mechanism stack.
+- The chapter moves through Three timescales, one stack, Case 1 — Antibiotic resistance as rapid evolution, The molecular mechanism, The selective sweep, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The same algorithm, three timescales, one mechanism stack.*
 
 ---
@@ -272,8 +279,7 @@ Evaluate whether the model correctly describes lactase persistence (MCM6 intron 
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Svante Pääbo** began his career in paleoanthropology trying to extract DNA from Egyptian mummies in the 1980s — mostly contamination. The path from those failed mummy experiments to a Nobel Prize in 2022 is one of the more remarkable stories in modern science.
 
 **Run this:**

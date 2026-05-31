@@ -1,5 +1,12 @@
 # Chapter 8 — Mutation, DNA Damage, and Cancer Genetics: The Hinge Between Disease and Evolution
 
+
+## TL;DR
+
+- Here is the thing to hold at the start.
+- The chapter moves through The typology of change, Where mutations come from, Mutation rates — the arithmetic matters, Cancer as somatic evolution, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The same molecular event. Two completely different fates. The fate is decided by which cell carries it forward.*
 
 ---

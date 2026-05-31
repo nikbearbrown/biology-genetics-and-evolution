@@ -1,19 +1,17 @@
 # Biology Plus One Genetics and Evolution
 
-**Publisher:** Humanitarians AI  
-**Edition:** 2026  
-**License:** CC BY 4.0 for text; AI+1 marks and cover design are trademarks of Humanitarians AI.
+**Author:** Humanitarians AI Incorporated  
+**Publisher:** Humanitarians AI Incorporated, a 501(c)(3) nonprofit organization  
+**Edition:** 2026
 
 ## Overview
 
-Biology Plus One Genetics and Evolution is part of the AI+1 series from Humanitarians AI. The book asks what a Biology  Genetics and Evolution practitioner can do with AI while preserving the human judgment, accountability, and domain expertise that the tool cannot supply.
-
-The book's front matter explains the copyright, CC BY 4.0 license, distribution model, AI and errata disclosure, and the Humanitarians AI publishing context. The introduction frames the reader's path through the chapters: where AI helps, where it fails, and how to keep the boundary between execution and judgment visible.
+The first sign of trouble is usually not failure. It is fluency. The draft looks clean. The answer sounds reasonable. The chart has labels. The code runs. The plan has phases. The explanation has the rhythm of expertise. Nothing in the surface announces that a human still has work to do. This book is about the gap between a polished artifact and a trustworthy one. The central argument of **Biology Plus One Genetics and Evolution** is that readers need a working method for the part of the work that cannot...
 
 ## Table of Contents
 
-- [Chapter 0 — How to Use the Simulations](chapters/00-how-to-use-the-simulations.md)
-- [Preface](chapters/00-preface.md)
+- [Front Matter](chapters/00-frontmatter.md)
+- [Introduction](chapters/00-introduction.md)
 - [Chapter 1 — Meiosis and the Basis of Inheritance](chapters/01-meiosis-basis-of-inheritance.md)
 - [Chapter 2 — Mendel's Laws and Mendelian Inheritance](chapters/02-mendels-laws-mendelian-inheritance.md)
 - [Chapter 3 — Extensions of Mendelian Genetics](chapters/03-extensions-mendelian-genetics.md)
@@ -28,11 +26,14 @@ The book's front matter explains the copyright, CC BY 4.0 license, distribution 
 - [Chapter 12 — Phylogenetics and the History of Life: Reading the Tree from the Speciation Events That Built It](chapters/12-phylogenetics-history-of-life.md)
 - [Chapter 13 — Molecular Evolution and Evo-Devo: How Sequences Change and How Bodies Get Built From the Same Toolbox](chapters/13-molecular-evolution-evo-devo.md)
 - [Chapter 14 — Capstone: From Genes to Evolutionary Change](chapters/14-capstone-genes-evolution.md)
+- [Back Matter](chapters/99-back-matter.md)
 
 ## Copyright and License
 
-Copyright © 2026 Humanitarians AI. The text is licensed under CC BY 4.0. See [LICENSE.md](LICENSE.md) for full terms, including trademark restrictions for AI+1 marks and cover design.
+Copyright © 2026 Humanitarians AI Incorporated. All rights reserved.
 
-## Errata
+See [LICENSE.md](LICENSE.md) for permissions and restrictions.
 
-Errata, corrections, and suspected mistakes may be submitted through [humanitarians.ai](https://www.humanitarians.ai/).
+## Medhavy / Medhavi Integration
+
+This book is intended for Kindle, online reading, and integration with Medhavy, an AI-powered intelligent textbook system. The static manuscript provides the durable text; Medhavy can provide adaptive practice, glossary support, study paths, and feedback loops.

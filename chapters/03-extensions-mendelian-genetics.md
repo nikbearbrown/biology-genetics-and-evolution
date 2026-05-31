@@ -1,4 +1,11 @@
 # Chapter 3 — Extensions of Mendelian Genetics
+
+## TL;DR
+
+- When the genotype-to-phenotype rule gets more interesting.
+- The chapter moves through The six assumptions, and where they break, Incomplete dominance — pink snapdragons and the dosage model, Codominance and the ABO blood groups, The Bombay phenotype — epistasis worked end to end, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *When the genotype-to-phenotype rule gets more interesting.*
 
 ---
@@ -266,8 +273,7 @@ Evaluate whether the model gives the correct number of phenotype classes (2n+1 f
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The genetics in this chapter didn't appear from nowhere. **Karl Landsteiner** was a Viennese physician who, in 1900, performed a deceptively simple experiment: he mixed blood from different individuals and observed which combinations agglutinated. The experiment he ran in one afternoon rearranged the safety of surgery forever.
 
 **Run this:**

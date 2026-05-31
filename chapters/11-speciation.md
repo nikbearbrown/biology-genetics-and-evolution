@@ -1,5 +1,12 @@
 # Chapter 11 — Speciation: How One Lineage Becomes Two, and Why "Species" Is the Useful Lie
 
+
+## TL;DR
+
+- Lake Victoria is the second-largest freshwater lake on Earth by surface area — about 68,800 km², spread across Uganda, Kenya, and Tanzania.
+- The chapter moves through What a species is — and where the definition earns its keep, Reproductive isolation — the mechanism, in two halves, Allopatric speciation — geography does the work, Sympatric speciation — same place, different fate, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The same machinery. Different currencies. The same result.*
 
 ---

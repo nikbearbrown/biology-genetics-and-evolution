@@ -1,4 +1,11 @@
 # Chapter 10 — Population Genetics and Natural Selection: How Allele Frequencies Change, and How to Predict Them
+
+## TL;DR
+
+- The null hypothesis that answers a creationist.
+- The chapter moves through What we are counting, The five forces, Force 1: Mutation, Force 2: Natural selection, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The null hypothesis that answers a creationist.*
 
 ---
@@ -377,8 +384,7 @@ African-American decline, using the same selection coefficients.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Godfrey Harold Hardy** sent his three-page letter to *Science* in 1908, proving that allele frequencies do not change under random mating alone. **Wilhelm Weinberg** derived the same result independently the same year, from medical-genetic data in Germany.
 
 **Run this:**

@@ -1,4 +1,11 @@
 # Chapter 13 — Molecular Evolution and Evo-Devo: How Sequences Change and How Bodies Get Built From the Same Toolbox
+
+## TL;DR
+
+- Why the fish that lost its spines always lost them at the same address.
+- The chapter moves through Part 1: How sequences evolve, Kimura's neutral theory, dN/dS — measuring selection through the genetic code, Selective sweeps, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Why the fish that lost its spines always lost them at the same address.*
 
 ---
@@ -429,8 +436,7 @@ this pattern, allowing for drift in small populations).
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Motoo Kimura** published "Evolutionary rate at the molecular level" in *Nature* in 1968 — five pages that overturned the assumption that most molecular evolution was adaptive. **Mary-Claire King and Allan Wilson** published "Evolution at two levels in humans and chimpanzees" in *Science* in 1975, proposing from protein-electrophoresis data that the morphological differences between humans and chimps must lie mostly in regulatory sequences. Both papers were written before anyone could directly sequence DNA. Both turned out to be largely right.
 
 **Run this:**

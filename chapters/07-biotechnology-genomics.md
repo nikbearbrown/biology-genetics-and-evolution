@@ -1,4 +1,11 @@
 # Chapter 7 — Biotechnology and Genomics: We Learned to Read the Letters, and Then We Learned to Write Them
+
+## TL;DR
+
+- Four verbs, borrowed from bacteria, that changed medicine.
+- The chapter moves through The four verbs, Copy: PCR and the thermophile from Yellowstone, Cut: restriction enzymes, then CRISPR, Restriction enzymes, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Four verbs, borrowed from bacteria, that changed medicine.*
 
 ---
@@ -393,8 +400,7 @@ should be < 5% (PASS/FAIL).
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Kary Mullis** invented PCR in 1983 and received the 1993 Nobel Prize in Chemistry. Thomas Brock isolated *Thermus aquaticus* in 1969. Jennifer Doudna and Emmanuelle Charpentier published the CRISPR-Cas9 guide RNA system in 2012 and received the 2020 Nobel.
 
 **Run this:**

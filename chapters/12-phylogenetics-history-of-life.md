@@ -1,4 +1,11 @@
 # Chapter 12 — Phylogenetics and the History of Life: Reading the Tree from the Speciation Events That Built It
+
+## TL;DR
+
+- The tree saw what the microscope could not.
+- The chapter moves through How to read a tree without misreading it, Three ways to build a tree, Worked example — building a primate phylogeny from a short sequence, The three domains and the last universal common ancestor, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The tree saw what the microscope could not.*
 
 ---
@@ -247,8 +254,7 @@ Evaluate whether the model correctly identifies horizontal gene transfer (most l
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Lynn Margulis** proposed the endosymbiotic origin of mitochondria and chloroplasts in a 1967 paper that was rejected by about fifteen journals before publication. The theory was treated as fringe biology for a decade before the molecular evidence made it undeniable.
 
 **Run this:**

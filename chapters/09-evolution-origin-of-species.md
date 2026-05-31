@@ -1,4 +1,11 @@
 # Chapter 9 — Evolution and the Origin of Species: How Populations Change and How One Kind Becomes Two
+
+## TL;DR
+
+- On a small volcanic island in the Galápagos called Daphne Major, a population of medium ground finches — Geospiza fortis — lives on what the island will give them.
+- The chapter moves through The four ingredients, How biology arrived at this idea, Three modes of selection, Evidence — seven lines converging, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Four ingredients. One mechanism. Four billion years of consequences.*
 
 ---
@@ -252,8 +259,7 @@ Evaluate whether the model correctly traces: unreduced gamete = 16 chromosomes; 
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Alfred Russel Wallace** developed the theory of natural selection independently of Darwin while collecting specimens in the Malay Archipelago in the 1850s. He is less famous than Darwin but arguably did more fieldwork — eight years in Southeast Asia, more than 125,000 specimens collected — and he gave us the Wallace Line, the biogeographic boundary between Asian and Australasian faunas.
 
 **Run this:**

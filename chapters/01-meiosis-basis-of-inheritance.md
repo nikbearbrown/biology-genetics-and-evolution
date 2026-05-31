@@ -1,4 +1,11 @@
 # Chapter 1 — Meiosis and the Basis of Inheritance
+
+## TL;DR
+
+- The physical mechanism behind an abstract law.
+- The chapter moves through The arithmetic problem, Mendel's First Law, in cells, Mendel's Second Law, in cells, When the Second Law fails: linkage, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The physical mechanism behind an abstract law.*
 
 ---
@@ -400,8 +407,7 @@ and the chromosomal event.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Walter Sutton** published his chromosomal theory of inheritance in 1902 and 1903 — a twenty-four-year-old graduate student connecting Mendel's abstract factors to the chromosomes he could see through his microscope. He was working on his master's thesis.
 
 **Run this:**

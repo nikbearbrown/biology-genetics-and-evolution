@@ -1,4 +1,11 @@
 # Chapter 6 — Gene Expression and Regulation: One Genome, Many Cells
+
+## TL;DR
+
+- This chapter gives a working overview of Gene Expression and Regulation: One Genome, Many Cells, focusing on the ideas a reader needs before moving to the next chapter.
+- The chapter moves through One genome, many cells — the question made precise, The lac operon — a Boolean AND gate in molecules, Eukaryotic transcriptional regulation — combinatorial TFs and enhancers, Epigenetic regulation — the memory layer, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *You are not your genome. You are your genome expressed.*
 
 ---
@@ -294,8 +301,7 @@ Evaluate whether the model correctly explains GalNAc or LNP-mediated hepatocyte 
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **François Jacob** and **Jacques Monod** published their *lac* operon model in 1961 in a twenty-two-page paper that introduced the word "messenger RNA" to biology. Jacob described the moment of conceptual breakthrough as happening during a Saturday-night party in Paris, walking home, when the similarity between the lambda phage genetic switch and the *lac* regulation snapped into focus simultaneously.
 
 **Run this:**

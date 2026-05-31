@@ -1,5 +1,12 @@
 # Chapter 2 — Mendel's Laws and Mendelian Inheritance
 
+
+## TL;DR
+
+- Here is what Gregor Mendel actually did that nobody before him had done.
+- The chapter moves through The apparatus, The first experiment — and why the result is strange, The mechanism that produces 1/4, The three laws — what they say and what they assume, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The garden was the apparatus. The counting was the experiment.*
 
 ---

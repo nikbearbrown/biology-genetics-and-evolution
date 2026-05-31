@@ -1,5 +1,12 @@
 # Chapter 5 — From Gene to Protein: Transcription and Translation
 
+
+## TL;DR
+
+- The ribosome does not care where the mRNA came from.
+- The chapter moves through What Crick actually said, Transcription — the disposable copy, Finding the gene, Template versus coding strand, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The ribosome does not care where the mRNA came from.*
 
 ---
